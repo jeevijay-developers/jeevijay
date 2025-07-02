@@ -59,7 +59,7 @@ const page = () => {
                 data-wow-delay="300ms"
               >
                 <div className="hero-image">
-                  <img src="assets/img/hero/hero-1.png" alt="hero illustration" />
+                  <img src="assets/img/hero/hero.png" alt />
                 </div>
               </div>
             </div>
@@ -190,10 +190,10 @@ const page = () => {
                     <i className="fas fa-play" />
                   </a>
                   <div className="image-1">
-                    <img src="assets/img/about/01.jpg" alt="img" />
+                    <img src="assets/img/about/office.jpeg" alt="img" />
                   </div>
                   <div className="image-2">
-                    <img src="assets/img/about/02.png" alt="img" />
+                    <img src="assets/img/about/about-3.jpg" alt="img" />
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ const page = () => {
                   <div className="countbox">
                     <h3>
                       <span className="count">
-                        <Counter end={24} />
+                        <Counter end={35} />
                       </span>
                       +
                     </h3>
