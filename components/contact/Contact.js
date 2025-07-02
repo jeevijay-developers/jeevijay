@@ -1,4 +1,4 @@
-import PriceRanger from "./PriceRanger";
+import PriceRanger from "../PriceRanger";
 
 const Contact = ({
   wrapperClass = "contact-us-wrapper contact-us-1 section-padding pt-0",
@@ -31,7 +31,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Call Us</p>
-                  <h3>+91 9589031040</h3>
+                  <h3>+69 009 494 094</h3>
                 </div>
               </div>
               <div className="infu-box d-flex align-items-center">
@@ -49,7 +49,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Mail us</p>
-                  <h3>info@jeevijay.com</h3>
+                  <h3>hello@zotech.com</h3>
                 </div>
               </div>
             </div>
@@ -225,17 +225,17 @@ export const Contact2 = () => {
                     </div>
                   </div>
                 </form>
-                <div className="categories mt-4 pt-3">
+                {/* <div className="categories mt-4 pt-3">
                   <span className="fw-semibold">
                     What's the type of your company?
                   </span>
                   <div className="categories-items mt-2">
                     <div className="single-item">It Company</div>
                     <div className="single-item">Business</div>
-                    <div className="single-item">Cyber Security</div>
+                    <div className="single-item">Marketing</div>
                     <div className="single-item">Other</div>
                   </div>
-                </div>
+                </div> */}
                 <div className="checked-box mt-4 pt-3">
                   <span className="fw-semibold">What you need from us?</span>
                   <div className="checked-box-items mt-2">
@@ -290,7 +290,7 @@ export const Contact2 = () => {
               data-wow-delay="300ms"
             >
               <div className="contact-right ps-xl-5 ms-xl-3">
-                <PriceRanger />
+                {/* <PriceRanger /> */}
                 <div
                   className="col-lg-12 wow fadeInUp mt-4"
                   data-wow-delay=".8"

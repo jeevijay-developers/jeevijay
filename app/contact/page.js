@@ -1,4 +1,5 @@
-import { Contact2 } from "@/components/Contact";
+import { Contact2 } from "@/components/contact/Contact";
+import Office from "@/components/contact/Office";
 import CTA from "@/components/CTA";
 import Pagebanner from "@/components/Pagebanner";
 import ZotechLayout from "@/layout/ZotechLayout";
@@ -17,21 +18,11 @@ const page = () => {
                 </div>
                 <div className="title">
                   <span>Call Us</span>
-                  <h4>+91 9589031040</h4>
+                  <h4>+91 958 903 1040</h4>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="single-contact-card d-flex align-items-center">
-                <div className="icon">
-                  <i className="flaticon-location" />
-                </div>
-                <div className="title">
-                  <span>Our Location</span>
-                  <h4>147 New Yors, NY RD 123</h4>
-                </div>
-              </div>
-            </div>
+
             <div className="col-lg-4 col-md-6 col-12">
               <div className="single-contact-card d-flex align-items-center">
                 <div className="icon">
@@ -44,20 +35,22 @@ const page = () => {
               </div>
             </div>
           </div>
+          {/* our offices section */}
+          <Office />
         </div>
       </section>
       {/* Contact-us Section Start */}
       <Contact2 />
       {/* Map Section Start */}
-      <div className="office-google-map-wrapper wow fadeInUp">
+      {/* <div className="office-google-map-wrapper wow fadeInUp">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
         />
-      </div>
-      <CTA wrapperClass="cta-wrapper cta-2 style-3 section-bg" />
+      </div> */}
+      {/* <CTA wrapperClass="cta-wrapper cta-2 style-3 section-bg" /> */}
     </ZotechLayout>
   );
 };

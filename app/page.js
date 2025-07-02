@@ -1,5 +1,5 @@
 import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
+import Contact from "@/components/contact/Contact";
 import Counter from "@/components/Counter";
 import BrandSlider from "@/components/slider/BrandSlider";
 import CaseStudySlider from "@/components/slider/CaseStudySlider";
