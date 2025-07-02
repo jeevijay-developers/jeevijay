@@ -15,7 +15,7 @@ const page = () => {
         {/* Hero Section Start */}
         <section className="hero-wrapper hero-1 mx-xl-5">
           <div className="shape">
-            <img className="shape-1" src="assets/img/world.png" alt />
+            <img className="shape-1" src="assets/img/world.png" alt="world shape" />
           </div>
           <div
             className="hero-bg bg-cover"
@@ -40,13 +40,13 @@ const page = () => {
                   </div>
                   <div className="feedback d-flex mt-xl-5">
                     <div className="infu">
-                      <img src="assets/img/google.png" alt />
+                      <img src="assets/img/google.png" alt="google rating" />
                       <p>
                         <span>4.8</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
                     <div className="infu">
-                      <img src="assets/img/rating.png" alt />
+                      <img src="assets/img/rating.png" alt="5 star rating" />
                       <p>
                         <span>4.9</span>From&nbsp;200+&nbsp;reviews
                       </p>
@@ -59,7 +59,7 @@ const page = () => {
                 data-wow-delay="300ms"
               >
                 <div className="hero-image">
-                  <img src="assets/img/hero/hero-1.png" alt />
+                  <img src="assets/img/hero/hero-1.png" alt="hero illustration" />
                 </div>
               </div>
             </div>
@@ -232,11 +232,11 @@ const page = () => {
                     </li>
                   </ul>
                   <div className="about-infu">
-                    <a href className="theme-btn black-btn">
+                    <a href="/about" className="theme-btn black-btn">
                       More About Us
                     </a>
                     <div className="contact-us">
-                      <img src="assets/img/about/03.png" alt />
+                      <img src="assets/img/about/03.png" alt="contact person" />
                       <div className="text">
                         <span>Call to ask any question</span>
                         <h4>0123-456-7890</h4>
@@ -251,8 +251,8 @@ const page = () => {
         {/* Service Section Start */}
         <section className="service-wrapper service-1 section-bg section-padding">
           <div className="shapes">
-            <img className="shape-1" src="assets/img/shape/shape-1.png" alt />
-            <img className="shape-2" src="assets/img/world.png" alt />
+            <img className="shape-1" src="assets/img/shape/shape-1.png" alt="" />
+            <img className="shape-2" src="assets/img/world.png" alt="" />
           </div>
           <div className="container">
             <div className="service-inner">
@@ -451,12 +451,12 @@ const page = () => {
                   Get Started Now
                 </Link>
                 <div className="contact-us d-flex ">
-                  <a href>
+                  <a href="mailto:info@jeevijay.com">
                     <i className="fal fa-envelope" />
                   </a>
                   <div className="text text-start">
                     <span>Our Gmail</span>
-                    <h4>zotech@gmail.com</h4>
+                    <h4>info@jeevijay.com</h4>
                   </div>
                 </div>
               </div>

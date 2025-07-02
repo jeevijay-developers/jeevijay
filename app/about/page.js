@@ -59,7 +59,7 @@ const page = () => {
       {/* Brand Section Start */}
       <section className="brand-wrapper brand-1 style-3 section-padding">
         <div className="shape">
-          <img className="shape-1" src="assets/img/shape/shape-20.png" alt="" />
+          <img className="shape-1" src="assets/img/shape/shape-20.png" alt="some shape" />
         </div>
         <div className="container">
           <div className="brand-inner">

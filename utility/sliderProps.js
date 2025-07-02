@@ -293,7 +293,7 @@ export const sliderProps = {
   textSlider: {
     slidesPerView: "auto",
     spaceBetween: 35,
-    freemode: true,
+    freemode: 'true',
     centeredSlides: true,
     loop: true,
     speed: 6000,
@@ -306,7 +306,7 @@ export const sliderProps = {
   textSlider2: {
     slidesPerView: "auto",
     spaceBetween: 35,
-    freemode: true,
+    freemode: 'true',
     centeredSlides: true,
     loop: true,
     speed: 6000,
