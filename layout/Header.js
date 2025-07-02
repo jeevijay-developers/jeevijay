@@ -28,7 +28,7 @@ const Header1 = () => {
             <ul>
               <li>
                 <i className="fal fa-phone-alt" />
-                <a href>+919589031040 </a>
+                <a href="tel:+919589031040">+919589031040 </a>
               </li>
               <li>
                 <i className="fal fa-envelope" />
@@ -85,7 +85,7 @@ const Header1 = () => {
                     <i className="fal fa-search" />
                   </a>
                   <div className="header-button  d-none d-sm-block">
-                    <a href className="theme-btn black-btn">
+                    <a href="/contact" className="theme-btn black-btn">
                       Get In Touch
                     </a>
                   </div>
@@ -783,7 +783,7 @@ const MobileMenu = () => {
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <a href className="theme-btn">
+                  <a href="/contact" className="theme-btn">
                     Contact Us
                   </a>
                 </div>

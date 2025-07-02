@@ -63,7 +63,7 @@ const Pricing = () => {
         style={{ marginTop: '-2rem' }}
       >
         <div className="single-pricing-item ">
-          <div className="price-btn">BEST CHOCE</div>
+          <div className="price-btn">BEST CHOICE</div>
           <div className="header">
             <h4>Standard Plan</h4>
             <span>Ideal for growing businesses seeking to expand their reach and improve ROI.</span>

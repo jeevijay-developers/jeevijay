@@ -1,6 +1,6 @@
 import CaseStudy from "@/components/CaseStudy";
 import ChooseUs from "@/components/ChooseUs";
-import { Contact2 } from "@/components/Contact";
+import { Contact2 } from "@/components/contact/Contact";
 import Counter from "@/components/Counter";
 import BrandSlider from "@/components/slider/BrandSlider";
 import HeroSlider from "@/components/slider/HeroSlider";
