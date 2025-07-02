@@ -19,7 +19,7 @@ const CaseStudySlider = () => {
               <div className="title">
                 <span>MARKETING</span>
                 <h4>
-                  <Link href="projects-details">01. Market Trend Alanysis</Link>
+                  <Link href="projects-details">01. Market Trend Analysis</Link>
                 </h4>
               </div>
               <Link href="projects-details" className="icon">

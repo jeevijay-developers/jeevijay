@@ -15,7 +15,11 @@ const page = () => {
         {/* Hero Section Start */}
         <section className="hero-wrapper hero-1 mx-xl-5">
           <div className="shape">
-            <img className="shape-1" src="assets/img/world.png" alt="world shape" />
+            <img
+              className="shape-1"
+              src="assets/img/world.png"
+              alt="world shape"
+            />
           </div>
           <div
             className="hero-bg bg-cover"
@@ -251,7 +255,11 @@ const page = () => {
         {/* Service Section Start */}
         <section className="service-wrapper service-1 section-bg section-padding">
           <div className="shapes">
-            <img className="shape-1" src="assets/img/shape/shape-1.png" alt="" />
+            <img
+              className="shape-1"
+              src="assets/img/shape/shape-1.png"
+              alt=""
+            />
             <img className="shape-2" src="assets/img/world.png" alt="" />
           </div>
           <div className="container">
@@ -339,9 +347,7 @@ const page = () => {
                         <i className="flaticon-analysis" />
                       </div>
                       <h4>
-                        <Link href="services-details">
-                          Web Development
-                        </Link>
+                        <Link href="services-details">Web Development</Link>
                       </h4>
                       <p>
                         We’ll match you to an entire remote team of incredible
@@ -509,7 +515,7 @@ const page = () => {
                   className="choose-us-images wow fadeInLeft"
                   data-wow-delay="300ms"
                 >
-                  <img src="assets/img/why-choose/01.png" alt />
+                  <img src="assets/img/why-choose/03.jpg" alt />
                   <div className="shape-img">
                     <img src="assets/img/shape/shape-2.png" alt />
                   </div>
