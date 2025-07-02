@@ -14,7 +14,7 @@ const CTA = ({
             </h3>
             <p>As a app web crawler expert, We will help to organize.</p>
           </div>
-          <a href className="theme-btn white-btn">
+          <a href="/contact" className="theme-btn white-btn">
             Take a Consultant
           </a>
         </div>

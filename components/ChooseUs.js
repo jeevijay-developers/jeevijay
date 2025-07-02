@@ -25,7 +25,7 @@ const ChooseUs = ({
               </p>
               <div className="reviews d-flex mt-4 pt-3">
                 <div className="infu">
-                  <img src="assets/img/why-choose/04.png" alt />
+                  <img src="assets/img/why-choose/04.png" alt="satisfied clients" />
                   <h4>
                     Join our 50503+ <br /> Satisfied World Clients
                   </h4>
@@ -50,7 +50,7 @@ const ChooseUs = ({
             data-wow-delay="300ms"
           >
             <div className="choose-us-images">
-              <img className="shape-1" src="assets/img/world.png" alt />
+              <img className="shape-1" src="assets/img/world.png" alt="world shape" />
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
                   <div className="single-choose-item active bg-cover mt-4 mt-xl-0">

@@ -15,7 +15,7 @@ const page = () => {
         {/* Hero Section Start */}
         <section className="hero-wrapper hero-1 mx-xl-5">
           <div className="shape">
-            <img className="shape-1" src="assets/img/world.png" alt />
+            <img className="shape-1" src="assets/img/world.png" alt="world shape" />
           </div>
           <div
             className="hero-bg bg-cover"
@@ -40,13 +40,13 @@ const page = () => {
                   </div>
                   <div className="feedback d-flex mt-xl-5">
                     <div className="infu">
-                      <img src="assets/img/google.png" alt />
+                      <img src="assets/img/google.png" alt="google rating" />
                       <p>
                         <span>4.8</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
                     <div className="infu">
-                      <img src="assets/img/rating.png" alt />
+                      <img src="assets/img/rating.png" alt="5 star rating" />
                       <p>
                         <span>4.9</span>From&nbsp;200+&nbsp;reviews
                       </p>
@@ -79,10 +79,10 @@ const page = () => {
                   </div>
                   <h4>
                     <Link href="services-details">
-                      Custom Software Development
+                      Digital Marketing and SEO
                     </Link>
                   </h4>
-                  <p>At Zotech, our mission is to you empower businesses.</p>
+                  <p>At Jeevijay, our mission is to you empower businesses.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -108,7 +108,7 @@ const page = () => {
                       Web and Mobile Development
                     </Link>
                   </h4>
-                  <p>At Zotech, our mission is to you empower businesses.</p>
+                  <p>At Jeevijay, our mission is to you empower businesses.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -134,7 +134,7 @@ const page = () => {
                       Business and IT Consultancy
                     </Link>
                   </h4>
-                  <p>At Zotech, our mission is to you empower businesses.</p>
+                  <p>At Jeevijay, our mission is to you empower businesses.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -158,7 +158,7 @@ const page = () => {
                   <h4>
                     <Link href="services-details">Advance Tool and Design</Link>
                   </h4>
-                  <p>At Zotech, our mission is to you empower businesses.</p>
+                  <p>At Jeevijay, our mission is to you empower businesses.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -232,14 +232,14 @@ const page = () => {
                     </li>
                   </ul>
                   <div className="about-infu">
-                    <a href className="theme-btn black-btn">
+                    <a href="/about" className="theme-btn black-btn">
                       More About Us
                     </a>
                     <div className="contact-us">
-                      <img src="assets/img/about/03.png" alt />
+                      <img src="assets/img/about/03.png" alt="contact person" />
                       <div className="text">
                         <span>Call to ask any question</span>
-                        <h4>0123-456-7890</h4>
+                        <h4>+91 9589031040</h4>
                       </div>
                     </div>
                   </div>
@@ -251,8 +251,8 @@ const page = () => {
         {/* Service Section Start */}
         <section className="service-wrapper service-1 section-bg section-padding">
           <div className="shapes">
-            <img className="shape-1" src="assets/img/shape/shape-1.png" alt />
-            <img className="shape-2" src="assets/img/world.png" alt />
+            <img className="shape-1" src="assets/img/shape/shape-1.png" alt="" />
+            <img className="shape-2" src="assets/img/world.png" alt="" />
           </div>
           <div className="container">
             <div className="service-inner">
@@ -315,7 +315,7 @@ const page = () => {
               </div>
               <div className="row mt-4">
                 <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
                   data-wow-delay="200ms"
                 >
                   <div className="single-service-item ">
@@ -340,7 +340,7 @@ const page = () => {
                       </div>
                       <h4>
                         <Link href="services-details">
-                          Digital Data Analysis
+                          Web &amp; Mobile Development
                         </Link>
                       </h4>
                       <p>
@@ -351,7 +351,7 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
                   data-wow-delay="400ms"
                 >
                   <div className="single-service-item">
@@ -385,7 +385,7 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
                   data-wow-delay="600ms"
                 >
                   <div className="single-service-item">
@@ -413,6 +413,40 @@ const page = () => {
                       </h4>
                       <p>
                         We’ll match you to an entire remote team of incredible
+                        freelance talent
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  data-wow-delay="800ms"
+                >
+                  <div className="single-service-item">
+                    <div className="shape">
+                      <img
+                        className="shape-3"
+                        src="assets/img/service/shape-1.png"
+                        alt
+                      />
+                      <img
+                        className="shape-4"
+                        src="assets/img/service/shape-2.png"
+                        alt
+                      />
+                    </div>
+                    <div className="image">
+                      <img src="assets/img/service/01.jpg" alt />
+                    </div>
+                    <div className="content">
+                      <div className="icon">
+                        <i className="flaticon-digital-marketing" />
+                      </div>
+                      <h4>
+                        <Link href="services-details">Digital Marketing</Link>
+                      </h4>
+                      <p>
+                        We'll match you to an entire remote team of incredible
                         freelance talent
                       </p>
                     </div>
@@ -451,12 +485,12 @@ const page = () => {
                   Get Started Now
                 </Link>
                 <div className="contact-us d-flex ">
-                  <a href>
+                  <a href="mailto:info@jeevijay.com">
                     <i className="fal fa-envelope" />
                   </a>
                   <div className="text text-start">
                     <span>Our Gmail</span>
-                    <h4>zotech@gmail.com</h4>
+                    <h4>info@jeevijay.com</h4>
                   </div>
                 </div>
               </div>
@@ -495,7 +529,7 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="mt-4 pe-xl-5 me-xl-3 text-center text-md-start">
-                    Zotech is the partner of choice for many of the world’s
+                    Jeevijay is the partner of choice for many of the world’s
                     leading enterprises, SMEs and technology challengers. We
                     help businesses elevate their value through custom software
                     development, product design, QA and consultancy services.
@@ -557,7 +591,7 @@ const page = () => {
           </div>
         </section>
         {/* Team Section Start */}
-        <TeamMember2 />
+        {/* <TeamMember2 /> */}
         {/* Case-study Section Start */}
         <section className="case-study-wrapper case-study-1 section-bg section-padding">
           <div className="shape">
