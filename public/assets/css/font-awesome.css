@@ -9564,6 +9564,9 @@ span[class*=" flaticon-"]:before {
 .flaticon-usability:before {
     content: "\f109";
 }
+.flaticon-marketing:before {
+    content: "\f110";
+}
 .flaticon-vector:before {
     content: "\f10a";
 }

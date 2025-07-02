@@ -340,7 +340,7 @@ const page = () => {
                       </div>
                       <h4>
                         <Link href="services-details">
-                          Web &amp; Mobile Development
+                          Web Development
                         </Link>
                       </h4>
                       <p>
@@ -440,7 +440,7 @@ const page = () => {
                     </div>
                     <div className="content">
                       <div className="icon">
-                        <i className="flaticon-digital-marketing" />
+                        <i className="flaticon-marketing" />
                       </div>
                       <h4>
                         <Link href="services-details">Digital Marketing</Link>
