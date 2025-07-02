@@ -30,7 +30,10 @@ const Footer1 = () => {
               <div className="single-footer-widget me-xxl-5 pe-xxl-4">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="/assets/img/logo/black-logo.png" alt="logo-img" />
+                    <img src="/assets/img/logo/jeevijaylogo.png" 
+                    alt="logo-img"
+                    style={{ maxHeight: "60px", width: "auto" }}
+                    />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -120,31 +123,31 @@ const Footer1 = () => {
                   <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
-                      Blockchain technology
+                      Web/Mobile Development
                     </Link>
                   </li>
                   <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
-                      Advanced Technology
+                      Digital Marketing
                     </Link>
                   </li>
                   <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
-                      Infrastructure Technology
+                      UI/UX Design
                     </Link>
                   </li>
                   <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
-                      Data Management
+                      IT Consultancy
                     </Link>
                   </li>
                   <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
-                      Security Management
+                      Business Planning
                     </Link>
                   </li>
                 </ul>
@@ -200,7 +203,7 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-bottom-wrapper">
             <p className="text-center">
-              ©Copyright 2025 Zotech All Rights Reserved
+              ©Copyright 2025 Jeevijay All Rights Reserved
             </p>
           </div>
         </div>
@@ -212,7 +215,7 @@ const Footer1 = () => {
 const Footer2 = () => {
   return (
     <footer className="footer-wrapper">
-      <FooterContent logo="/assets/img/logo/white-logo.png" />
+      <FooterContent logo="/assets/img/logo/jeevijaylogo.png" />
     </footer>
   );
 };
@@ -304,14 +307,14 @@ const Footer4 = ({ cta }) => {
             </div>
           </div>
         </div>
-        <FooterContent logo="/assets/img/logo/white-logo.png" />
+        <FooterContent logo="/assets/img/logo/jeevijaylogo.png" />
       </footer>
     </Fragment>
   );
 };
 
 const FooterContent = ({
-  logo = "assets/img/logo/black-logo.png",
+  logo = "/assets/img/logo/jeevijaylogo.png",
   layout = "style-2",
 }) => {
   const services = [
@@ -367,7 +370,7 @@ const FooterContent = ({
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src={logo} alt="logo-img" />
+                    <img src={logo} alt="logo-img" style={{ maxHeight: "60px", width: "auto" }} />
                   </Link>
                 </div>
                 <div className="footer-content">
