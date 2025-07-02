@@ -582,14 +582,14 @@ const page = () => {
           </div>
         </section>
         {/* Brand Section Start */}
-        <section className="brand-wrapper brand-1 section-bg section-padding">
+        {/* <section className="brand-wrapper brand-1 section-bg section-padding">
           <div className="container">
             <div className="brand-inner text-center text-lg-start">
               <h3>Our Global Partner</h3>
               <BrandSlider />
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Team Section Start */}
         {/* <TeamMember2 /> */}
         {/* Case-study Section Start */}
