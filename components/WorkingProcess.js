@@ -10,12 +10,12 @@ const WorkingProcess = ({
           </div>
           <h2 className="split-text right">Our Working Process in 4 Steps</h2>
         </div>
-        <div className="row mt-4">
+        <div className="row mt-4 align-items-stretch">
           <div
             className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay="200ms"
           >
-            <div className="signle-process-item pe-xl-4">
+            <div className="signle-process-item pe-xl-4 h-100">
               <img
                 className="shape-1"
                 src="assets/img/process/shape-6.png"
@@ -35,10 +35,10 @@ const WorkingProcess = ({
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-6 mt-xl-5  wow fadeInUp"
+            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay="400ms"
           >
-            <div className="signle-process-item pe-xl-3 ps-xl-2 ">
+            <div className="signle-process-item pe-xl-3 ps-xl-2 h-100">
               <img
                 className="shape-2"
                 src="assets/img/process/shape-7.png"
@@ -61,7 +61,7 @@ const WorkingProcess = ({
             className="col-xl-3 col-lg-6 col-md-6  wow fadeInUp"
             data-wow-delay="600ms"
           >
-            <div className="signle-process-item ps-xl-3 pe-xl-2">
+            <div className="signle-process-item ps-xl-3 pe-xl-2 h-100">
               <img
                 className="shape-1"
                 src="assets/img/process/shape-6.png"
@@ -81,10 +81,10 @@ const WorkingProcess = ({
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-6 mt-xl-5  wow fadeInUp"
+            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay="400ms"
           >
-            <div className="signle-process-item ps-xl-4">
+            <div className="signle-process-item ps-xl-4 h-100">
               <div className="icons">
                 <div className="icon-1">
                   <i className="flaticon-positive-review" />
