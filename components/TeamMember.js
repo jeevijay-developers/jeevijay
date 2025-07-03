@@ -63,7 +63,7 @@ export const Team = ({ teamMembers }) => {
           <div className="single-team-item">
             <img className="shape-1" src="assets/img/shape/shape-11.png" alt />
             <div className="team-image">
-              <img src={member.image} alt />
+              <img src={member.image || "/OurTeam/400.svg"} alt />
             </div>
             <div className="content">
               <p>{member.role}</p>
