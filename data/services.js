@@ -54,7 +54,7 @@ const services = [
   },
   {
     id: 8,
-    title: "IT Consultant",
+    title: "IT Consultancy",
     description: "Expert tech advice to navigate digital challenges smoothly.",
     link: "services-details/it-consultant",
     icons: "flaticon-connection",
