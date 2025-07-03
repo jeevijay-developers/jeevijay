@@ -24,7 +24,7 @@ const page = () => {
           <div
             className="hero-bg bg-cover"
             style={{
-              backgroundImage: 'url("/assets/img/hero/hero-1-1-bg.png")',
+              backgroundImage: 'url("/assets/img/hero/hero-bg.jpg")',
             }}
           ></div>
           <div className="container">
@@ -42,15 +42,44 @@ const page = () => {
                       Explore More
                     </Link>
                   </div>
-                  <div className="feedback d-flex mt-xl-5">
+                  <div className="feedback d-flex mt-xl-5 ">
                     <div className="infu">
-                      <img src="assets/img/google.png" alt="google rating" />
+                      <img
+                        className="w-50"
+                        src="assets/img/google-1.png"
+                        alt="google rating"
+                      />
                       <p>
                         <span>4.8</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
-                    <div className="infu">
-                      <img src="assets/img/rating.png" alt="5 star rating" />
+                    <div className="infu ">
+                      <img
+                        // className="w-25"
+                        style={{ width: "35px" }}
+                        src="assets/img/rating-1.png"
+                        alt="5 star rating"
+                      />
+                      <img
+                        style={{ width: "35px" }}
+                        src="assets/img/rating-1.png"
+                        alt="5 star rating"
+                      />
+                      <img
+                        style={{ width: "35px" }}
+                        src="assets/img/rating-1.png"
+                        alt="5 star rating"
+                      />
+                      <img
+                        style={{ width: "35px" }}
+                        src="assets/img/rating-1.png"
+                        alt="5 star rating"
+                      />
+                      <img
+                        style={{ width: "35px" }}
+                        src="assets/img/rating-1.png"
+                        alt="5 star rating"
+                      />
                       <p>
                         <span>4.9</span>From&nbsp;200+&nbsp;reviews
                       </p>
@@ -257,7 +286,7 @@ const page = () => {
           <div className="shapes">
             <img
               className="shape-1"
-              src="assets/img/shape/shape-1.png"
+              src="assets/img/shape/shape-01.png"
               alt=""
             />
             <img className="shape-2" src="assets/img/world.png" alt="" />
@@ -340,7 +369,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/01.jpg" alt />
+                      <img src="assets/img/service/1.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -374,7 +403,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/02.jpg" alt />
+                      <img src="assets/img/service/2.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -408,7 +437,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/03.jpg" alt />
+                      <img src="assets/img/service/3.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -442,7 +471,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/01.jpg" alt />
+                      <img src="assets/img/service/4.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
