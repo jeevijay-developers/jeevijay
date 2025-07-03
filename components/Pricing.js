@@ -7,10 +7,13 @@ const Pricing = () => {
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="200ms"
       >
-        <div className="single-pricing-item h-100">
+        <div className="single-pricing-item h-fit">
           <div className="header">
             <h4>Basic Plan</h4>
-            <span>Perfect for startups and small businesses looking to establish an online presence.</span>
+            <span>
+              Perfect for startups and small businesses looking to establish an
+              online presence.
+            </span>
           </div>
           <div className="price">
             ₹10,000 <span> / Month </span>
@@ -61,11 +64,27 @@ const Pricing = () => {
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="400ms"
       >
-        <div className="single-pricing-item h-100">
-          <div className="price-btn">BEST CHOICE</div>
+        <div className="single-pricing-item h-fit">
+          <div
+            className="btn btn-success"
+            style={{
+              position: "absolute",
+              top: "20px",
+              right: "20px",
+              zIndex: 10,
+              fontSize: "12px",
+              padding: "5px 10px",
+              borderRadius: "5px",
+            }}
+          >
+            BEST CHOICE
+          </div>
           <div className="header">
             <h4>Standard Plan</h4>
-            <span>Ideal for growing businesses seeking to expand their reach and improve ROI.</span>
+            <span>
+              Ideal for growing businesses seeking to expand their reach and
+              improve ROI.
+            </span>
           </div>
           <div className="price">
             ₹15,000 <span> / Month </span>
@@ -128,10 +147,13 @@ const Pricing = () => {
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="600ms"
       >
-        <div className="single-pricing-item h-100">
+        <div className="single-pricing-item h-fit">
           <div className="header">
             <h4>Premium Plan</h4>
-            <span>Designed for established businesses aiming for full-scale digital domination.</span>
+            <span>
+              Designed for established businesses aiming for full-scale digital
+              domination.
+            </span>
           </div>
           <div className="price">
             ₹25,000 <span> / Month </span>
@@ -164,7 +186,7 @@ const Pricing = () => {
               <i className="fas fa-check-circle" />
               Ad Campaign Creation
             </li>
-             <li>
+            <li>
               <i className="fas fa-check-circle" />
               Facebook Business Manager Set Up
             </li>
