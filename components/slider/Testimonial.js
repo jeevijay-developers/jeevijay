@@ -8,7 +8,7 @@ const Testimonial = () => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className="signle-testimonial-item d-flex ">
-            <img src="assets/img/testimonial/01.png" alt />
+            <img src="/OurClients/003.png" alt />
             <div className="content">
               <div className="star text-center text-md-start">
                 <i className="fas fa-star" />
@@ -18,19 +18,20 @@ const Testimonial = () => {
                 <i className="fas fa-star" />
               </div>
               <p>
-                I believe in lifelong learning and they are a great place to
-                learn from experts. I have learned a lot and recommend it
+                Jeevijay IT transformed our entire business operations with their 
+                custom ERP solution. The team was professional, delivered on time, 
+                and provided excellent post-deployment support.
               </p>
               <div className="clints-infu pt-4 pt-xxl-5  text-center text-md-start">
-                <h5>William Jekson</h5>
-                <span>Product Manager</span>
+                <h5>Priya Sharma</h5>
+                <span>CEO, TechVision Solutions</span>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="signle-testimonial-item d-flex ">
-            <img src="assets/img/testimonial/01.png" alt />
+            <img src="/OurClients/001.png" alt />
             <div className="content">
               <div className="star text-center text-md-start">
                 <i className="fas fa-star" />
@@ -40,19 +41,20 @@ const Testimonial = () => {
                 <i className="fas fa-star" />
               </div>
               <p>
-                I believe in lifelong learning and they are a great place to
-                learn from experts. I have learned a lot and recommend it
+                Working with Jeevijay IT was a game-changer for our startup. 
+                Their mobile app development expertise helped us launch our 
+                product ahead of schedule with exceptional quality.
               </p>
               <div className="clints-infu pt-4 pt-lg-5 text-center text-md-start">
-                <h5>William Jekson</h5>
-                <span>Product Manager</span>
+                <h5>Rajesh Kumar</h5>
+                <span>Founder, InnovateNow</span>
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="signle-testimonial-item d-flex ">
-            <img src="assets/img/testimonial/01.png" alt />
+            <img src="/OurClients/002.png" alt />
             <div className="content">
               <div className="star text-center text-md-start">
                 <i className="fas fa-star" />
@@ -62,12 +64,13 @@ const Testimonial = () => {
                 <i className="fas fa-star" />
               </div>
               <p>
-                I believe in lifelong learning and they are a great place to
-                learn from experts. I have learned a lot and recommend it
+                The cloud migration services from Jeevijay IT saved us 40% on 
+                infrastructure costs. Their team handled everything seamlessly 
+                with minimal downtime. Highly recommend their services!
               </p>
               <div className="clints-infu pt-4 pt-lg-5 text-center text-md-start">
-                <h5>William Jekson</h5>
-                <span>Product Manager</span>
+                <h5>Anita Patel</h5>
+                <span>CTO, FinanceFlow Ltd</span>
               </div>
             </div>
           </div>
@@ -119,13 +122,14 @@ export const Testimonial2 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              Their cybersecurity solutions gave us peace of mind. After implementing 
+              their advanced security framework, we haven't had a single breach. 
+              The team was knowledgeable and responsive throughout the project.
             </p>
             <div className="client-info">
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Arjun Mehta</h6>
+                <p>IT Director, SecureBank</p>
               </div>
               <div className="quote-icon">
                 <img src="assets/img/testimonial/quote-1.png" alt="icon-img" />
@@ -159,13 +163,14 @@ export const Testimonial2 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              Jeevijay IT's AI integration transformed our customer service. 
+              The chatbot they developed handles 80% of our queries automatically, 
+              improving response time and customer satisfaction significantly.
             </p>
             <div className="client-info">
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Kavita Singh</h6>
+                <p>Operations Manager, RetailPro</p>
               </div>
               <div className="quote-icon">
                 <img src="assets/img/testimonial/quote-1.png" alt="icon-img" />
@@ -199,13 +204,14 @@ export const Testimonial2 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              Outstanding web development services! They built our e-commerce 
+              platform from scratch and it's been running flawlessly for 2 years. 
+              The performance optimization they did increased our sales by 35%.
             </p>
             <div className="client-info">
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Sanjay Gupta</h6>
+                <p>CEO, ShopEasy</p>
               </div>
               <div className="quote-icon">
                 <img src="assets/img/testimonial/quote-1.png" alt="icon-img" />
@@ -251,8 +257,9 @@ export const Testimonial3 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              The digital transformation project they executed for us was flawless. 
+              From legacy system migration to implementing modern APIs, everything 
+              was delivered on time and within budget. Truly professional team!
             </p>
             <div className="client-info">
               <div className="client-img">
@@ -262,8 +269,8 @@ export const Testimonial3 = () => {
                 </div>
               </div>
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Deepak Sharma</h6>
+                <p>Technology Head, ManufacturingPlus</p>
               </div>
             </div>
           </div>
@@ -291,8 +298,9 @@ export const Testimonial3 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              Their blockchain development expertise helped us build a transparent 
+              supply chain solution. The implementation was smooth and the ongoing 
+              support has been excellent. Great value for money!
             </p>
             <div className="client-info">
               <div className="client-img">
@@ -302,8 +310,8 @@ export const Testimonial3 = () => {
                 </div>
               </div>
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Neha Agarwal</h6>
+                <p>VP Technology, LogisticsCorp</p>
               </div>
             </div>
           </div>
@@ -331,8 +339,9 @@ export const Testimonial3 = () => {
               </li>
             </ul>
             <p className="text">
-              I believe in lifelong learning and they are a great place to learn
-              from experts. I have learned a lot and recommend it
+              Working with Jeevijay IT on our IoT project was fantastic. They 
+              developed a smart monitoring system that improved our operational 
+              efficiency by 45%. The dashboard they created is intuitive and powerful.
             </p>
             <div className="client-info">
               <div className="client-img">
@@ -342,8 +351,8 @@ export const Testimonial3 = () => {
                 </div>
               </div>
               <div className="content">
-                <h6>William Jekson</h6>
-                <p>Product Manager</p>
+                <h6>Vikram Joshi</h6>
+                <p>Plant Manager, GreenEnergy Solutions</p>
               </div>
             </div>
           </div>
@@ -393,14 +402,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Pioneers in AI Integration Services"</h3>
+            <h3>"Exceptional Software Development Partners"</h3>
             <p className="text">
-              "Their advanced AI solutions helped us streamline operations and
-              improve user experiences effortlessly."
+              "Jeevijay IT delivered a comprehensive CRM solution that streamlined 
+              our sales process and improved customer relationships. Their attention 
+              to detail and technical expertise is unmatched."
             </p>
             <div className="client-info">
-              <h4>William Jekson</h4>
-              <p>Product Manager</p>
+              <h4>Rohit Malhotra</h4>
+              <p>Sales Director, TechSolutions Inc</p>
             </div>
           </div>
         </SwiperSlide>
@@ -433,14 +443,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Exceptional Service for AI Innovation"</h3>
+            <h3>"Best Data Analytics Implementation"</h3>
             <p className="text">
-              "Integrating their AI solutions revolutionized our workflows,
-              unlocking new efficiency and productivity levels."
+              "The business intelligence dashboard they created gives us real-time 
+              insights into our operations. Decision-making has become much more 
+              data-driven and efficient since the implementation."
             </p>
             <div className="client-info">
-              <h4>Steve Smit</h4>
-              <p>Product Manager</p>
+              <h4>Meera Nair</h4>
+              <p>Analytics Manager, DataDriven Corp</p>
             </div>
           </div>
         </SwiperSlide>
@@ -474,15 +485,16 @@ export const Testimonial4 = () => {
               </li>
             </ul>
             <h3>
-              "Top AI Partner for <br /> Growth"
+              "Reliable IT Infrastructure <br /> Partners"
             </h3>
             <p className="text">
-              "Their AI-driven insights helped us make smarter decisions,
-              boosting our overall business performance."
+              "Their managed IT services have kept our systems running smoothly 
+              for over 3 years. The proactive monitoring and quick resolution 
+              of issues has significantly reduced our downtime."
             </p>
             <div className="client-info">
-              <h4>Will Jacks</h4>
-              <p>Product Manager</p>
+              <h4>Amit Khanna</h4>
+              <p>IT Manager, GlobalTech Solutions</p>
             </div>
           </div>
         </SwiperSlide>
@@ -515,14 +527,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Pioneers in AI Integration Services"</h3>
+            <h3>"Outstanding Mobile App Development"</h3>
             <p className="text">
-              "Integrating their AI solutions revolutionized our workflows,
-              unlocking new efficiency and productivity levels."
+              "They developed our cross-platform mobile app that now has over 
+              100K downloads. The app is fast, user-friendly, and has helped 
+              us reach a much wider customer base."
             </p>
             <div className="client-info">
-              <h4>Michael Jon</h4>
-              <p>Product Manager</p>
+              <h4>Sunita Rao</h4>
+              <p>Product Owner, MobileFirst Solutions</p>
             </div>
           </div>
         </SwiperSlide>
@@ -555,14 +568,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Pioneers in AI Integration Services"</h3>
+            <h3>"Excellent DevOps Implementation"</h3>
             <p className="text">
-              "Their advanced AI solutions helped us streamline operations and
-              improve user experiences effortlessly."
+              "The DevOps practices they implemented reduced our deployment time 
+              from hours to minutes. Their CI/CD pipeline setup has made our 
+              development process much more efficient and reliable."
             </p>
             <div className="client-info">
-              <h4>William Jekson</h4>
-              <p>Product Manager</p>
+              <h4>Karan Verma</h4>
+              <p>DevOps Lead, CodeFlow Technologies</p>
             </div>
           </div>
         </SwiperSlide>
@@ -595,14 +609,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Exceptional Service for AI Innovation"</h3>
+            <h3>"Professional Cloud Migration Services"</h3>
             <p className="text">
-              "Integrating their AI solutions revolutionized our workflows,
-              unlocking new efficiency and productivity levels."
+              "Moving to the cloud seemed daunting, but Jeevijay IT made it 
+              seamless. Their planning and execution were flawless, and we've 
+              seen significant cost savings and improved scalability."
             </p>
             <div className="client-info">
-              <h4>Steve Smit</h4>
-              <p>Product Manager</p>
+              <h4>Rashmi Chopra</h4>
+              <p>Infrastructure Head, CloudFirst Enterprises</p>
             </div>
           </div>
         </SwiperSlide>
@@ -636,15 +651,16 @@ export const Testimonial4 = () => {
               </li>
             </ul>
             <h3>
-              "Top AI Partner for <br /> Growth"
+              "Top-notch Technical <br /> Consulting"
             </h3>
             <p className="text">
-              "Their AI-driven insights helped us make smarter decisions,
-              boosting our overall business performance."
+              "Their technical consulting helped us choose the right technology 
+              stack for our startup. The architecture they designed has scaled 
+              perfectly as we've grown from 1K to 50K users."
             </p>
             <div className="client-info">
-              <h4>Will Jacks</h4>
-              <p>Product Manager</p>
+              <h4>Anil Kumar</h4>
+              <p>CTO, StartupSuccess</p>
             </div>
           </div>
         </SwiperSlide>
@@ -677,14 +693,15 @@ export const Testimonial4 = () => {
                 <i className="fas fa-star" />
               </li>
             </ul>
-            <h3>"Pioneers in AI Integration Services"</h3>
+            <h3>"Amazing API Development Services"</h3>
             <p className="text">
-              "Integrating their AI solutions revolutionized our workflows,
-              unlocking new efficiency and productivity levels."
+              "The RESTful APIs they built are fast, secure, and well-documented. 
+              Integration with third-party services has never been easier. Their 
+              code quality and documentation standards are exceptional."
             </p>
             <div className="client-info">
-              <h4>Michael Jon</h4>
-              <p>Product Manager</p>
+              <h4>Pooja Iyer</h4>
+              <p>Technical Lead, APIFirst Solutions</p>
             </div>
           </div>
         </SwiperSlide>
