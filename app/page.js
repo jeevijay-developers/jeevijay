@@ -679,7 +679,7 @@ const page = () => {
               >
                 <div className="icon">01</div>
                 <div className="image">
-                  <img src="assets/img/process/01.jpg" alt />
+                  <img src="assets/img/process/bussiness.jpg" alt />
                 </div>
                 <h4>Understanding Story</h4>
                 <p>
@@ -694,7 +694,7 @@ const page = () => {
               >
                 <div className="icon">02</div>
                 <div className="image">
-                  <img src="assets/img/process/02.jpg" alt />
+                  <img src="assets/img/process/process.jpg" alt />
                 </div>
                 <h4>Start Working</h4>
                 <p>
@@ -709,7 +709,7 @@ const page = () => {
               >
                 <div className="icon">03</div>
                 <div className="image">
-                  <img src="assets/img/process/03.jpg" alt />
+                  <img src="assets/img/process/review.jpg" alt />
                 </div>
                 <h4>Review &amp; Fixing</h4>
                 <p>
