@@ -495,7 +495,7 @@ const page = () => {
         <section className="about-wrapper about-2 mx-xl-5 section-padding pt-0">
           <div
             className="bg-image bg-cover"
-            style={{ backgroundImage: "url(assets/img/about/01-bg.png)" }}
+            style={{ backgroundImage: "url(assets/img/about/bg-1.jpg)" }}
           />
           <div className="container">
             <div className="about-content wow fadeInUp" data-wow-delay="300ms">
