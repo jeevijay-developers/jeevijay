@@ -13,7 +13,7 @@ const CaseStudySlider = () => {
             data-wow-delay="200ms"
           >
             <div className="image">
-              <img src="assets/img/case/01.jpg" alt />
+              <img src="assets/img/case/marketing.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -34,7 +34,7 @@ const CaseStudySlider = () => {
             data-wow-delay="400ms"
           >
             <div className="image">
-              <img src="assets/img/case/02.jpg" alt />
+              <img src="assets/img/case/SoftwareAnalysis.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -55,7 +55,7 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/03.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -76,7 +76,7 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/04.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -97,7 +97,7 @@ const CaseStudySlider = () => {
             data-wow-delay="200ms"
           >
             <div className="image">
-              <img src="assets/img/case/01.jpg" alt />
+              <img src="assets/img/case/marketing.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -118,7 +118,7 @@ const CaseStudySlider = () => {
             data-wow-delay="400ms"
           >
             <div className="image">
-              <img src="assets/img/case/02.jpg" alt />
+              <img src="assets/img/case/SoftwareAnalysis.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -139,7 +139,7 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/03.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -160,7 +160,7 @@ const CaseStudySlider = () => {
             data-wow-delay="600ms"
           >
             <div className="image">
-              <img src="assets/img/case/04.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -191,7 +191,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="200ms">
             <div className="image">
-              <img src="assets/img/case/05.jpg" alt />
+              <img src="assets/img/case/marketing.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -209,7 +209,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="400ms">
             <div className="image">
-              <img src="assets/img/case/06.jpg" alt />
+              <img src="assets/img/case/SoftwareAnalysis.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -229,7 +229,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="600ms">
             <div className="image">
-              <img src="assets/img/case/07.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
@@ -249,7 +249,7 @@ export const CaseStudySlider2 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="single-case-item wow fadeInUp" data-wow-delay="600ms">
             <div className="image">
-              <img src="assets/img/case/08.jpg" alt />
+              <img src="assets/img/case/bussiness.jpg" alt />
             </div>
             <div className="content d-flex align-items-center justify-content-between">
               <div className="title">
