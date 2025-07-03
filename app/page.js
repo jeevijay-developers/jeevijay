@@ -257,7 +257,7 @@ const page = () => {
           <div className="shapes">
             <img
               className="shape-1"
-              src="assets/img/shape/shape-1.png"
+              src="assets/img/shape/shape-01.png"
               alt=""
             />
             <img className="shape-2" src="assets/img/world.png" alt="" />
@@ -340,7 +340,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/01.jpg" alt />
+                      <img src="assets/img/service/1.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -374,7 +374,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/02.jpg" alt />
+                      <img src="assets/img/service/2.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -408,7 +408,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/03.jpg" alt />
+                      <img src="assets/img/service/3.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
@@ -442,7 +442,7 @@ const page = () => {
                       />
                     </div>
                     <div className="image">
-                      <img src="assets/img/service/01.jpg" alt />
+                      <img src="assets/img/service/4.jpg" alt />
                     </div>
                     <div className="content">
                       <div className="icon">
