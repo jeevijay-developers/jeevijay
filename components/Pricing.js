@@ -2,12 +2,12 @@ import Link from "next/link";
 
 const Pricing = () => {
   return (
-    <div className="row g-4 align-items-center mt-4">
+    <div className="row g-4 align-items-stretch mt-4">
       <div
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="200ms"
       >
-        <div className="single-pricing-item">
+        <div className="single-pricing-item h-100">
           <div className="header">
             <h4>Basic Plan</h4>
             <span>Perfect for startups and small businesses looking to establish an online presence.</span>
@@ -60,9 +60,8 @@ const Pricing = () => {
       <div
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="400ms"
-        style={{ marginTop: '-2rem' }}
       >
-        <div className="single-pricing-item ">
+        <div className="single-pricing-item h-100">
           <div className="price-btn">BEST CHOICE</div>
           <div className="header">
             <h4>Standard Plan</h4>
@@ -129,7 +128,7 @@ const Pricing = () => {
         className="col-xl-4 col-lg-6 col-md-6 col-12 wow fadeInUp"
         data-wow-delay="600ms"
       >
-        <div className="single-pricing-item">
+        <div className="single-pricing-item h-100">
           <div className="header">
             <h4>Premium Plan</h4>
             <span>Designed for established businesses aiming for full-scale digital domination.</span>
