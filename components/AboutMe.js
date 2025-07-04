@@ -1,6 +1,6 @@
 const AboutMe = ({
   wrapperClass = "about-wrapper about-1 style-2 about-page section-padding",
-  img1 = "assets/img/about/09.jpg",
+  img1 = "assets/img/about/09a.jpg",
   img2 = "assets/img/about/10.png",
 }) => {
   return (
@@ -12,11 +12,11 @@ const AboutMe = ({
             data-wow-delay="300ms"
           >
             <div className="about-images-2">
-              <img
+              {/* <img
                 className="shape-1"
                 src="assets/img/about/shape-1.png"
                 alt=""
-              />
+              /> */}
               <img
                 className="shape-2"
                 src="assets/img/shape/shape-1.png"

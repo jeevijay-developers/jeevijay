@@ -33,8 +33,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/01.jpg" alt="" />
-                    <img src="assets/img/blog/01.jpg" alt="" />
+                    <img src="assets/img/blog/b11.jpg" alt="" />
+                    <img src="assets/img/blog/b12.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
@@ -66,8 +66,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/02.jpg" alt="" />
-                    <img src="assets/img/blog/02.jpg" alt="" />
+                    <img src="assets/img/blog/b21.jpg" alt="" />
+                    <img src="assets/img/blog/b22.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
@@ -99,8 +99,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/03.jpg" alt="" />
-                    <img src="assets/img/blog/03.jpg" alt="" />
+                    <img src="assets/img/blog/b31.jpg" alt="" />
+                    <img src="assets/img/blog/b32.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
@@ -132,8 +132,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/04.jpg" alt="" />
-                    <img src="assets/img/blog/04.jpg" alt="" />
+                    <img src="assets/img/blog/b11.jpg" alt="" />
+                    <img src="assets/img/blog/b12.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
@@ -165,8 +165,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/05.jpg" alt="" />
-                    <img src="assets/img/blog/05.jpg" alt="" />
+                    <img src="assets/img/blog/b21.jpg" alt="" />
+                    <img src="assets/img/blog/b22.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
@@ -198,8 +198,8 @@ const page = () => {
               >
                 <div className="single-blog-item">
                   <div className="image">
-                    <img src="assets/img/blog/06.jpg" alt="" />
-                    <img src="assets/img/blog/06.jpg" alt="" />
+                    <img src="assets/img/blog/b31.jpg" alt="" />
+                    <img src="assets/img/blog/b32.jpg" alt="" />
                   </div>
                   <div className="content">
                     <ul>
