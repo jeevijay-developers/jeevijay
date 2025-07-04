@@ -42,7 +42,7 @@ const page = () => {
     {
       role: "Full Stack Developer",
       name: "Abhishek Yadav",
-      image: "/OurTeam/abhishek.jpg",
+      image: "/OurTeam/Abhishek.jpg",
       delay: "400ms",
     },
   ];
