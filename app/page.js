@@ -52,16 +52,20 @@ const page = () => {
                         alt="google rating"
                       />
                       <p>
-                        <span>4.8</span>From&nbsp;799+&nbsp;reviews
+                        <span>4.5</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
-                    <div className="infu gap-2 align-items-center">
-                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
-                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
-                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
-                      <FaRegStarHalfStroke
-                        style={{ color: "gold", fontSize: "24px" }}
-                      />
+                    <div className="infu align-items-center">
+                      <div className="d-flex gap-1">
+                        {" "}
+                        <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                        <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                        <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                        <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                        <FaRegStarHalfStroke
+                          style={{ color: "gold", fontSize: "24px" }}
+                        />
+                      </div>
 
                       {/* <img
                         // className="w-25"
@@ -89,8 +93,8 @@ const page = () => {
                         src="assets/img/rating-1.png"
                         alt="5 star rating"
                       /> */}
-                      <p>
-                        <span>4.9</span>From&nbsp;200+&nbsp;reviews
+                      <p className="d-flex flex-row flex-nowrap">
+                        <span>4.5&nbsp;</span>From&nbsp;200+&nbsp;reviews
                       </p>
                     </div>
                   </div>
