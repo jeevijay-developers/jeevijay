@@ -5024,8 +5024,9 @@ input.main-search-input::placeholder {
   background-position: center;
 }
 
+/* Custom scrollbar width and style */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 16px; /* Adjust as needed */
   height: 4px;
 }
 
@@ -5037,12 +5038,17 @@ input.main-search-input::placeholder {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--theme);
-  border-radius: 10px;
+  background: #ccc;
+  border-radius: 8px;
 }
 
 .fix {
   overflow: hidden;
+}
+
+html {
+  scrollbar-width: thick; /* For Firefox */
+  scrollbar-color: #ccc #fff;
 }
 
 .ralt {

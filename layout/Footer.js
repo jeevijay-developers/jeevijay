@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Fragment } from "react";
+import { MapPin, Building2, CheckCircle2 } from "lucide-react";
 
 const Footer = ({ footer, cta }) => {
   switch (footer) {
@@ -30,42 +31,52 @@ const Footer1 = () => {
               <div className="single-footer-widget me-xxl-5 pe-xxl-4">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="/assets/img/logo/jeevijaylogo.png" 
-                    alt="logo-img"
-                    style={{ maxHeight: "60px", width: "auto" }}
+                    <img
+                      src="/assets/img/logo/jeevijaylogo.png"
+                      alt="logo-img"
+                      style={{ maxHeight: "60px", width: "auto" }}
                     />
                   </Link>
                 </div>
                 <div className="footer-content">
-                  <p>
-                    Mauris ut enim sit amet lacus ornare <br /> ullamcorper.
-                    Praesent placerat neque eu <br />
-                    purus rhoncus
-                  </p>
-                  <h5>Subscribe Now</h5>
-                  <div className="footer-input border-radius-none">
-                    <input type="email" id="email2" placeholder="Your Email" />
-                    <button
-                      className="newsletter-btn border-radius-none"
-                      type="submit"
-                    >
-                      <i className="fab fa-telegram-plane" />
-                    </button>
-                  </div>
-                  <div className="social-icon d-flex align-items-center">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-dribbble" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </div>
+                  <h4 className="mb-3 text-black">
+                    Proudly Serving Four Major Cities Across India
+                  </h4>
+                  <ul
+                    className="list-unstyled text-black small mb-0"
+                    style={{ lineHeight: 1.5 }}
+                  >
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <MapPin size={38} className="mt-1 text-warning" />
+                      <span>
+                        Branch Office kota - 22, Second floor Behind Modern
+                        Petrol Pump Aerodrome Near Gumanpura Police Station Kota
+                        rajasthan (324007)
+                      </span>
+                    </li>
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <Building2 size={38} className="mt-1 text-warning" />
+                      <span>
+                        Branch Office - White Field, HN - 1, Sai Colony
+                        Extension, Belathur, Kadugodi, Bengaluru, Karnataka
+                        560067
+                      </span>
+                    </li>
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <Building2 size={28} className="mt-1 text-warning" />
+                      <span>
+                        34, Piyush nagar Awadhpuri, Near ISBT bus Stand Bhopal
+                        Madhya Pradesh (462022)
+                      </span>
+                    </li>
+                    <li className="d-flex align-items-start gap-2">
+                      <CheckCircle2 size={28} className="mt-1 text-warning" />
+                      <span>
+                        A - 01 Anmol vatika ground Floor Karmeta road jabalpur
+                        Madhya Pradesh (482002)
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -307,7 +318,7 @@ const Footer4 = ({ cta }) => {
             </div>
           </div>
         </div>
-        <FooterContent logo="/assets/img/logo/jeevijaylogo.png" />
+        <FooterContent logo="/assets/img/logo/jvlogo.png" />
       </footer>
     </Fragment>
   );
@@ -370,39 +381,52 @@ const FooterContent = ({
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src={logo} alt="logo-img" style={{ maxHeight: "60px", width: "auto" }} />
+                    <img
+                      src={logo}
+                      alt="logo-img"
+                      style={{ maxHeight: "60px", width: "auto" }}
+                    />
                   </Link>
                 </div>
                 <div className="footer-content">
-                  <p>
-                    Mauris ut enim sit amet lacus ornare <br /> ullamcorper.
-                    Praesent placerat neque eu <br />
-                    purus rhoncus
-                  </p>
-                  <h5>Subscribe Now</h5>
-                  <div className="footer-input border-radius-none">
-                    <input type="email" id="email2" placeholder="Your Email" />
-                    <button
-                      className="newsletter-btn border-radius-none"
-                      type="submit"
-                    >
-                      <i className="fab fa-telegram-plane" />
-                    </button>
-                  </div>
-                  <div className="social-icon d-flex align-items-center">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-dribbble" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </div>
+                  <h4 className="mb-3 text-white">
+                    Proudly Serving Four Major Cities Across India
+                  </h4>
+                  <ul
+                    className="list-unstyled text-white small mb-0"
+                    style={{ lineHeight: 1.5 }}
+                  >
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <MapPin size={38} className="mt-1 text-warning" />
+                      <span>
+                        Branch Office kota - 22, Second floor Behind Modern
+                        Petrol Pump Aerodrome Near Gumanpura Police Station Kota
+                        rajasthan (324007)
+                      </span>
+                    </li>
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <Building2 size={38} className="mt-1 text-warning" />
+                      <span>
+                        Branch Office - White Field, HN - 1, Sai Colony
+                        Extension, Belathur, Kadugodi, Bengaluru, Karnataka
+                        560067
+                      </span>
+                    </li>
+                    <li className="mb-2 d-flex align-items-start gap-2">
+                      <Building2 size={28} className="mt-1 text-warning" />
+                      <span>
+                        34, Piyush nagar Awadhpuri, Near ISBT bus Stand Bhopal
+                        Madhya Pradesh (462022)
+                      </span>
+                    </li>
+                    <li className="d-flex align-items-start gap-2">
+                      <CheckCircle2 size={28} className="mt-1 text-warning" />
+                      <span>
+                        A - 01 Anmol vatika ground Floor Karmeta road jabalpur
+                        Madhya Pradesh (482002)
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -479,7 +503,7 @@ const FooterContent = ({
       <div className="footer-bottom style-2">
         <div className="container">
           <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
-            <p>Copyright 2025 Zotech All Rights Reserved</p>
+            <p>Copyright 2025 Jeevijay All Rights Reserved</p>
             <div className="security ">
               <Link href="/contact">Privacy policy</Link>/
               <Link href="/contact">Terms &amp; Condition </Link>/
