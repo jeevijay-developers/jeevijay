@@ -44,20 +44,19 @@ const page = () => {
                       Explore More
                     </Link>
                   </div>
-                  <div className="feedback d-flex mt-xl-5 ">
-                    <div className="infu">
+                  <div className="feedback d-flex flex-column flex-md-row align-items-center justify-content-center mt-xl-5">
+                    <div className="infu text-center text-md-start">
                       <img
                         className="w-50"
                         src="assets/img/google-1.png"
                         alt="google rating"
                       />
                       <p>
-                        <span>4.5</span>From&nbsp;799+&nbsp;reviews
+                        <span>4.5&nbsp;</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
-                    <div className="infu align-items-center">
-                      <div className="d-flex gap-1">
-                        {" "}
+                    <div className="infu align-items-center ms-md-4 mt-3 mt-md-0 text-center text-md-start">
+                      <div className="d-flex gap-1 justify-content-center justify-content-md-start">
                         <FaStar style={{ color: "gold", fontSize: "24px" }} />
                         <FaStar style={{ color: "gold", fontSize: "24px" }} />
                         <FaStar style={{ color: "gold", fontSize: "24px" }} />
