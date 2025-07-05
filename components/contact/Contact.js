@@ -54,7 +54,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Mail us</p>
-                  <h3>info@jeevijay.com</h3>
+                  <h4>info@jeevijay.com</h4>
                 </div>
               </div>
             </div>

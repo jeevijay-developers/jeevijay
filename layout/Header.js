@@ -396,7 +396,7 @@ const Menu = () => {
           </li>
           <li>
             <a href="#">
-              Pages
+              Company
               <i className="fas fa-angle-down" />
             </a>
             <ul className="submenu">

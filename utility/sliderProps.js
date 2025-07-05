@@ -108,10 +108,10 @@ export const sliderProps = {
     },
   },
   testimonial: {
-    spaceBetween: 0,
+    slidesPerView: 1,
+    spaceBetween: 16,
     speed: 1000,
     loop: "true",
-    slidesPerView: 1,
     centeredSlides: true,
     speed: 1000,
     autoplay: {
@@ -121,6 +121,11 @@ export const sliderProps = {
     navigation: {
       nextEl: ".array-prev",
       prevEl: ".array-next",
+    },
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
     },
   },
   testimonial2: {

@@ -229,7 +229,7 @@ const page = () => {
               >
                 <div className="about-images">
                   <a
-                    href="https://www.youtube.com/watch?v=h9MbznbxlLc"
+                    href="https://www.youtube.com/shorts/-Esfb62aKVs"
                     className="icon video-popup"
                   >
                     <i className="fas fa-play" />
@@ -669,16 +669,7 @@ const page = () => {
             <img className="shape-2" src="assets/img/shape/shape-14.png" alt />
           </div>
           <div className="container ">
-            <div className="section-title text-center">
-              <div className="sub-title">
-                <span>OUR TESTIMONIAL</span>
-              </div>
-              <h2 className="split-text left">What our clients say about us</h2>
-              <p>
-                Accelerate innovation with world-class tech teams We’ll match{" "}
-                <br /> you to an entire remote team of incredible
-              </p>
-            </div>
+            
             <div className="testimonial-inner overflow-hidden">
               <Testimonial />
             </div>
@@ -771,7 +762,7 @@ const page = () => {
               style={{ backgroundImage: "url(assets/img/video-01.jpg)" }}
             >
               <a
-                href="https://www.youtube.com/watch?v=h9MbznbxlLc"
+                href="https://www.youtube.com/shorts/-Esfb62aKVs"
                 className="video-button video-popup"
               >
                 <i className="fas fa-play" />
