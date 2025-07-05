@@ -759,7 +759,7 @@ const page = () => {
             <div
               className="video-image bg-cover wow fadeInUp"
               data-wow-delay="300ms"
-              style={{ backgroundImage: "url(assets/img/video-01.jpg)" }}
+              style={{ backgroundImage: "url(assets/img/vid.jpg)" }}
             >
               <a
                 href="https://www.youtube.com/shorts/-Esfb62aKVs"
