@@ -56,8 +56,20 @@ const page = () => {
                         diam sit amet turpis interd enim. Vivamus fauc ex sed
                         nibh egestas elementum. Mauris et bibendum
                       </p>
-                  
-                      <h2 className="mt-4">
+                      <div className="wp-block-quote">
+                        <blockquote>
+                          Your time is limited, so don’t waste it living someone
+                          else’s life. Don’t be trapped by dogma – which is
+                          living with the results
+                        </blockquote>
+                        <div className="title d-flex align-items-center justify-content-between">
+                          <span>John Mehedii</span>
+                          <div className="icon">
+                            <i className="flaticon-quote" />
+                          </div>
+                        </div>
+                      </div>
+                      <h2 className="mt-0">
                         Let our investment management team{" "}
                       </h2>
                       <div className="row">
@@ -104,18 +116,218 @@ const page = () => {
                       </p>
                     </div>
                   </div>
-              
+                  <div
+                    className="row tag-share-wrap wow fadeInUp"
+                    data-wow-delay="300ms"
+                  >
+                    <div className="col-lg-8 col-12">
+                      <div className="tagcloud d-flex ">
+                        <h4>Tag:</h4>
+                        <Link href="/blog-details">Business</Link>
+                        <Link href="/blog-details">Design</Link>
+                        <Link href="/blog-details">apps</Link>
+                        <Link href="/blog-details">data</Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-12 mt-3 mt-lg-0">
+                      <div className="social-share d-flex align-items-center">
+                        <h4>Share:</h4>
+                        <a href="#">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-twitter" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-instagram" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-linkedin-in" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  {/* comments section wrap start */}
+                  <div
+                    className="comments-section-wrap mt-5 wow fadeInUp"
+                    data-wow-delay="400ms"
+                  >
+                    <div className="comments-heading">
+                      <h3>03 Comments</h3>
+                    </div>
+                    <ul className="comments-item-list">
+                      <li className="single-comment-item">
+                        <div className="author-img">
+                          <img
+                            src="assets/img/blog/author_img1.jpg"
+                            alt="img"
+                          />
+                        </div>
+                        <div className="author-info-comment">
+                          <div className="info">
+                            <h5>
+                              <a href="#">Rohan De Spond</a>
+                            </h5>
+                            <span>21th Feb 2025</span>
+                            <a href="#" className="reply-btn">
+                              <i className="fal fa-reply-all" />
+                            </a>
+                          </div>
+                          <div className="comment-text">
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the leap into electronic type
+                              setting, remaining essentiallyuncha opularisedthe
+                              with the release of Letrasetsheets containingth
+                              leap electrtypesetting
+                            </p>
+                          </div>
+                        </div>
+                        <ul className="replay-comment ms-xxl-5 ps-xxl-5">
+                          <li className="single-comment-item">
+                            <div className="author-img">
+                              <img
+                                src="assets/img/blog/author_img2.jpg"
+                                alt="img"
+                              />
+                            </div>
+                            <div className="author-info-comment">
+                              <div className="info">
+                                <h5>
+                                  <a href="#">Johan Ritaxon</a>
+                                </h5>
+                                <span>29th Jan 2021</span>
+                              </div>
+                              <div className="comment-text">
+                                <p>
+                                  There are many variations of passages of Lorem
+                                  Ipsum available, but the majority have. There
+                                  are many variations of passages
+                                </p>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="comment-form-wrap d-block mt-3 wow fadeInUp"
+                    data-wow-delay="500ms"
+                  >
+                    <h3>Post Comment</h3>
+                    <form action="#" className="comment-form">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="single-form-input">
+                            <input type="text" placeholder="Enter your name*" />
+                          </div>
+                        </div>
+                        <div className="col-lg-6">
+                          <div className="single-form-input">
+                            <input
+                              type="email"
+                              placeholder="Enter your mail*"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-lg-6">
+                          <div className="single-form-input">
+                            <input
+                              type="text"
+                              placeholder="Enter your  number*"
+                            />
+                          </div>
+                        </div>
+                        <div className="col-lg-6">
+                          <div className="single-form-input">
+                            <input type="text" placeholder="Website*" />
+                          </div>
+                        </div>
+                        <div className="col-lg-12">
+                          <div className="single-form-input">
+                            <textarea
+                              placeholder="Enter your Massage*"
+                              defaultValue={""}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <div className="form-check mt-3">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        defaultValue=""
+                        id="flexCheckDefault"
+                      />
+                      <label
+                        className="form-check-label"
+                        htmlFor="flexCheckDefault"
+                      >
+                        Click the box and agree to our&nbsp;terms and conditions
+                      </label>
+                    </div>
+                    <button className="theme-btn black-btn mt-4" type="submit">
+                      Post A Comment
+                    </button>
+                  </div>
                 </div>
               </div>
               <div className="col-12 col-xxl-4 col-xl-5">
                 <div className="main-sidebar">
-              
+                  <div
+                    className="single-sidebar-widget wow fadeInUp"
+                    data-wow-delay="200ms"
+                  >
+                    <div className="blog-author-info text-center">
+                      <div className="image">
+                        <img src="assets/img/blog/pp4.jpg" alt="" />
+                      </div>
+                      <h5 className="mt-3">Rosalina D. Willaim</h5>
+                      <p className="mt-1">Blogger/Photographer</p>
+                      <p className="mt-3">
+                        he whimsically named Egg Canvas is the design director
+                        and photographer in New York. Why the nam
+                      </p>
+                      <div className="social-link mt-3">
+                        <a href="#">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-twitter" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-vimeo-v" />
+                        </a>
+                        <a href="#">
+                          <i className="fab fa-pinterest-p" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   <div
                     className="single-sidebar-widget wow fadeInUp"
                     data-wow-delay="200ms"
                   >
                     <div className="wid-title">
-                      <h3>Other Blogs</h3>
+                      <h3>Search here</h3>
+                    </div>
+                    <div className="search_widget">
+                      <form action="#">
+                        <input type="text" placeholder="Search here..." />
+                        <button type="submit">
+                          <i className="fal fa-search" />
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div
+                    className="single-sidebar-widget wow fadeInUp"
+                    data-wow-delay="200ms"
+                  >
+                    <div className="wid-title">
+                      <h3>Recent News</h3>
                     </div>
                     <div className="popular-posts">
                       <div className="single-post-item">
