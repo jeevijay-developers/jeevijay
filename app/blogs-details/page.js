@@ -9,7 +9,7 @@ const page = () => {
         <div className="container">
           <div className="news-area">
             <div className="row">
-              <div className="col-12 col-xxl-8 col-xl-7">
+              <div className="col-12 col-xxl-8 col-xl-12">
                 <div className="blog-post-details border-wrap mt-0">
                   <div
                     className="blog-details-image wow fadeInUp"
@@ -115,7 +115,7 @@ const page = () => {
                     data-wow-delay="200ms"
                   >
                     <div className="wid-title">
-                      <h3>Other Blogs</h3>
+                      <h3>Our Latest Blogs</h3>
                     </div>
                     <div className="popular-posts">
                       <div className="single-post-item">
@@ -137,25 +137,7 @@ const page = () => {
                           </h5>
                         </div>
                       </div>
-                      <div className="single-post-item">
-                        <div
-                          className="thumb bg-cover"
-                          style={{
-                            backgroundImage: 'url("assets/img/blog/pp2.jpg")',
-                          }}
-                        />
-                        <div className="post-content">
-                          <div className="post-date">
-                            <i className="fal fa-calendar" />
-                            29 August, 2025
-                          </div>
-                          <h5>
-                            <Link href="/blog-details">
-                              Drivers Deliver Much More Than Products
-                            </Link>
-                          </h5>
-                        </div>
-                      </div>
+                  
                       <div className="single-post-item">
                         <div
                           className="thumb bg-cover"
@@ -175,56 +157,6 @@ const page = () => {
                           </h5>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div
-                    className="single-sidebar-widget wow fadeInUp"
-                    data-wow-delay="200ms"
-                  >
-                    <div className="wid-title">
-                      <h3>Categories</h3>
-                    </div>
-                    <div className="widget_categories">
-                      <ul>
-                        <li>
-                          <Link href="/news">
-                            Data Visualization <span>02</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/news">
-                            Product Development <span>06</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/news">
-                            Security System <span>11</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/news">
-                            UI/UX Designing <span>05</span>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div
-                    className="single-sidebar-widget wow fadeInUp"
-                    data-wow-delay="200ms"
-                  >
-                    <div className="wid-title">
-                      <h3>Popular Tags</h3>
-                    </div>
-                    <div className="tagcloud-2">
-                      <Link href="/news">Tourist</Link>
-                      <Link href="/news-details">Traveling</Link>
-                      <Link href="/news-details">Cave</Link>
-                      <Link href="/news-details">Sky Dive</Link>
-                      <Link href="/news-details">hill Climb</Link>
-                      <Link href="/news-details">Oppos</Link>
-                      <Link href="/news-details">landing </Link>
-                      <Link href="/news-details">Oppos</Link>
                     </div>
                   </div>
                 </div>
