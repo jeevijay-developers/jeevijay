@@ -6,6 +6,8 @@ import CaseStudySlider from "@/components/slider/CaseStudySlider";
 import Testimonial from "@/components/slider/Testimonial";
 import { TeamMember2 } from "@/components/TeamMember";
 import ZotechLayout from "@/layout/ZotechLayout";
+import { FaStar, FaRegStarHalfStroke } from "react-icons/fa6";
+
 import Link from "next/link";
 import { Fragment } from "react";
 const page = () => {
@@ -53,8 +55,15 @@ const page = () => {
                         <span>4.8</span>From&nbsp;799+&nbsp;reviews
                       </p>
                     </div>
-                    <div className="infu ">
-                      <img
+                    <div className="infu gap-2 align-items-center">
+                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                      <FaStar style={{ color: "gold", fontSize: "24px" }} />
+                      <FaRegStarHalfStroke
+                        style={{ color: "gold", fontSize: "24px" }}
+                      />
+
+                      {/* <img
                         // className="w-25"
                         style={{ width: "35px" }}
                         src="assets/img/rating-1.png"
@@ -79,7 +88,7 @@ const page = () => {
                         style={{ width: "35px" }}
                         src="assets/img/rating-1.png"
                         alt="5 star rating"
-                      />
+                      /> */}
                       <p>
                         <span>4.9</span>From&nbsp;200+&nbsp;reviews
                       </p>
