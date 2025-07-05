@@ -31,7 +31,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Call Us</p>
-                  <h3>+69 009 494 094</h3>
+                  <h4>+919589031040</h4>
                 </div>
               </div>
               <div className="infu-box d-flex align-items-center">
@@ -40,7 +40,12 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Our Location</p>
-                  <h3>147 New Yors, NY Adipisicing 123</h3>
+                  <h4>
+                    {" "}
+                    Branch Office kota - 22, Second floor Behind Modern Petrol
+                    Pump Aerodrome Near Gumanpura Police Station Kota rajasthan
+                    (324007)
+                  </h4>
                 </div>
               </div>
               <div className="infu-box d-flex align-items-center">
@@ -49,7 +54,7 @@ const Contact = ({
                 </div>
                 <div className="infu">
                   <p>Mail us</p>
-                  <h3>hello@zotech.com</h3>
+                  <h3>info@jeevijay.com</h3>
                 </div>
               </div>
             </div>
