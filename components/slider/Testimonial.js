@@ -167,3 +167,144 @@ export const Testimonial2 = () => {
 		</Swiper>
 	);
 };
+
+export const Testimonial3 = () => {
+	return (
+		<Swiper
+			{...sliderProps.testimonial3}
+			className="swiper testimonial-slide-3"
+		>
+			{[1,2,3].map((_, idx) => (
+				<SwiperSlide key={idx}>
+					<div
+						className="single-testimonial-item wow fadeInUp"
+						data-wow-delay="200ms"
+					>
+						<ul className="client-rating d-flex align-items-center">
+							{[...Array(5)].map((_, i) => (
+								<li key={i}><i className="fas fa-star" /></li>
+							))}
+						</ul>
+						<p className="text">
+							{idx === 0 && (
+								<>
+									The digital transformation project they executed for us was flawless.<br />
+									From legacy system migration to implementing modern APIs, everything<br />
+									was delivered on time and within budget. Truly professional team!
+								</>
+							)}
+							{idx === 1 && (
+								<>
+									Their blockchain development expertise helped us build a transparent<br />
+									supply chain solution. The implementation was smooth and the ongoing<br />
+									support has been excellent. Great value for money!
+								</>
+							)}
+							{idx === 2 && (
+								<>
+									Working with Jeevijay IT on our IoT project was fantastic. They<br />
+									developed a smart monitoring system that improved our operational<br />
+									efficiency by 45%. The dashboard they created is intuitive and powerful.
+								</>
+							)}
+						</p>
+						<div className="client-info">
+							<div className="client-img">
+								<img src="assets/img/testimonial/02.png" alt="client-img" />
+								<div className="icon">
+									<i className="flaticon-quote" />
+								</div>
+							</div>
+							<div className="content">
+								<h6>{idx === 0 ? "Deepak Sharma" : idx === 1 ? "Neha Agarwal" : "Vikram Joshi"}</h6>
+								<p>{idx === 0 ? "Technology Head, ManufacturingPlus" : idx === 1 ? "VP Technology, LogisticsCorp" : "Plant Manager, GreenEnergy Solutions"}</p>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+			))}
+			<div className="array-button">
+				<button className="array-next">
+					<i className="fas fa-long-arrow-right" />
+				</button>
+				<button className="array-prev">
+					<i className="fas fa-long-arrow-left" />
+				</button>
+			</div>
+		</Swiper>
+	);
+};
+
+export const Testimonial4 = () => {
+	return (
+		<Swiper {...sliderProps.testimonial4} className="swiper testimonial-4">
+			{[1,2,3,4,5,6,7,8,9].map((_, idx) => (
+				<SwiperSlide key={idx}>
+					<div
+						className="single-testimonial-item wow fadeInUp"
+						data-wow-delay="200ms"
+					>
+						<img className="shape-1" src="assets/img/shape/shape-11.png" alt />
+						<div className="client-img center">
+							<img src={`assets/img/testimonial/0${(idx%6)+1}.png`} alt="client-img" />
+							<div className="icon">
+								<i className="flaticon-quote" />
+							</div>
+						</div>
+						<ul className="client-rating d-flex align-items-center justify-content-center">
+							{[...Array(5)].map((_, i) => (
+								<li key={i}><i className="fas fa-star" /></li>
+							))}
+						</ul>
+						<h3>
+							{idx === 0 && "Exceptional Software Development Partners"}
+							{idx === 1 && "Best Data Analytics Implementation"}
+							{idx === 2 && "Reliable IT Infrastructure Partners"}
+							{idx === 3 && "Outstanding Mobile App Development"}
+							{idx === 4 && "Excellent DevOps Implementation"}
+							{idx === 5 && "Professional Cloud Migration Services"}
+							{idx === 6 && "Top-notch Technical Consulting"}
+							{idx === 7 && "Amazing API Development Services"}
+							{idx >= 8 && "Exceptional Software Development Partners"}
+						</h3>
+						<p className="text">
+							{idx === 0 && "Jeevijay IT delivered a comprehensive CRM solution that streamlined our sales process and improved customer relationships. Their attention to detail and technical expertise is unmatched."}
+							{idx === 1 && "The business intelligence dashboard they created gives us real-time insights into our operations. Decision-making has become much more data-driven and efficient since the implementation."}
+							{idx === 2 && "Their managed IT services have kept our systems running smoothly for over 3 years. The proactive monitoring and quick resolution of issues has significantly reduced our downtime."}
+							{idx === 3 && "They developed our cross-platform mobile app that now has over 100K downloads. The app is fast, user-friendly, and has helped us reach a much wider customer base."}
+							{idx === 4 && "The DevOps practices they implemented reduced our deployment time from hours to minutes. Their CI/CD pipeline setup has made our development process much more efficient and reliable."}
+							{idx === 5 && "Moving to the cloud seemed daunting, but Jeevijay IT made it seamless. Their planning and execution were flawless, and we've seen significant cost savings and improved scalability."}
+							{idx === 6 && "Their technical consulting helped us choose the right technology stack for our startup. The architecture they designed has scaled perfectly as we've grown from 1K to 50K users."}
+							{idx === 7 && "The RESTful APIs they built are fast, secure, and well-documented. Integration with third-party services has never been easier. Their code quality and documentation standards are exceptional."}
+							{idx >= 8 && "Jeevijay IT delivered a comprehensive CRM solution that streamlined our sales process and improved customer relationships. Their attention to detail and technical expertise is unmatched."}
+						</p>
+						<div className="client-info">
+							<h4>
+								{idx === 0 && "Rohit Malhotra"}
+								{idx === 1 && "Meera Nair"}
+								{idx === 2 && "Amit Khanna"}
+								{idx === 3 && "Sunita Rao"}
+								{idx === 4 && "Karan Verma"}
+								{idx === 5 && "Rashmi Chopra"}
+								{idx === 6 && "Anil Kumar"}
+								{idx === 7 && "Pooja Iyer"}
+								{idx >= 8 && "Rohit Malhotra"}
+							</h4>
+							<p>
+								{idx === 0 && "Sales Director, TechSolutions Inc"}
+								{idx === 1 && "Analytics Manager, DataDriven Corp"}
+								{idx === 2 && "IT Manager, GlobalTech Solutions"}
+								{idx === 3 && "Product Owner, MobileFirst Solutions"}
+								{idx === 4 && "DevOps Lead, CodeFlow Technologies"}
+								{idx === 5 && "Infrastructure Head, CloudFirst Enterprises"}
+								{idx === 6 && "CTO, StartupSuccess"}
+								{idx === 7 && "Technical Lead, APIFirst Solutions"}
+								{idx >= 8 && "Sales Director, TechSolutions Inc"}
+							</p>
+						</div>
+					</div>
+				</SwiperSlide>
+			))}
+		</Swiper>
+	);
+};
