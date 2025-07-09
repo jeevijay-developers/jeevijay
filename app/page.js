@@ -34,10 +34,8 @@ const page = () => {
               <div className="col-xl-6 col-lg-6 col-md-12 col-12">
                 <div className="hero-content pe-xl-3 text-lg-start text-center ">
                   <h1>Empowering Ideas with Technological Excellence</h1>
-                  <p>
-                    In today's competitive business, the demand for efficient
-                    and cost-effective IT solutions has never been more
-                    critical.
+                  <p style={{ color: "#ddd" }}>
+                    Empowering brands with performance-driven websites, digital marketing, mobile apps, ERP systems, and industrial automation Solutions. We build smart technology for modern businesses and institutions ready to lead in the digital age.
                   </p>
                   <div className="hero-button mt-4">
                     <Link href="causes" className="theme-btn">
