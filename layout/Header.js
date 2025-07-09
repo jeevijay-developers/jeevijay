@@ -425,7 +425,7 @@ const Menu = () => {
               </li>
             </ul> */}
           </li>
-          <li className="has-dropdown">
+          {/* <li className="has-dropdown">
             <a href="#">
               Projects
               <i className="fas fa-angle-down" />
@@ -438,7 +438,7 @@ const Menu = () => {
                 <Link href="/projects-details">Project Details</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <a href="#">
               News
@@ -683,7 +683,7 @@ const MobileMenu = () => {
                           <i className="far fa-plus" />
                         </a>
                       </li>
-                      <li className="has-dropdown">
+                      {/* <li className="has-dropdown">
                         <a href="#" onClick={() => activeMenuSet("Projects")}>
                           Projects
                           <i className="fas fa-angle-down" />
@@ -703,7 +703,7 @@ const MobileMenu = () => {
                         >
                           <i className="far fa-plus" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="#" onClick={() => activeMenuSet("News")}>
                           News

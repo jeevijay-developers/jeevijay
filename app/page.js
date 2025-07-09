@@ -1,6 +1,7 @@
 import Blog from "@/components/Blog";
 import Contact from "@/components/contact/Contact";
 import Counter from "@/components/Counter";
+import OurClients from "@/components/OurClients";
 import BrandSlider from "@/components/slider/BrandSlider";
 import CaseStudySlider from "@/components/slider/CaseStudySlider";
 import Testimonial from "@/components/slider/Testimonial";
@@ -626,6 +627,10 @@ const page = () => {
             </div>
           </div>
         </section>
+        
+        {/* Our Clients Section Start */}
+        <OurClients />
+        
         {/* Brand Section Start */}
         {/* <section className="brand-wrapper brand-1 section-bg section-padding">
           <div className="container">
@@ -638,7 +643,7 @@ const page = () => {
         {/* Team Section Start */}
         {/* <TeamMember2 /> */}
         {/* Case-study Section Start */}
-        <section className="case-study-wrapper case-study-1 section-bg section-padding">
+        {/* <section className="case-study-wrapper case-study-1 section-bg section-padding">
           <div className="shape">
             <img className="shape-1" src="assets/img/shape/shape-6.png" alt />
           </div>
@@ -659,7 +664,7 @@ const page = () => {
           <div className="case-study-inner mt-5">
             <CaseStudySlider />
           </div>
-        </section>
+        </section> */}
         {/* Testimonial Section Start */}
         <section className="testimonial-wrapper testimonial-1 section-padding pb-0">
           <div className="shape">
