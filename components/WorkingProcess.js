@@ -29,8 +29,9 @@ const WorkingProcess = ({
               </div>
               <h4 className="mb-2">Project Discussion</h4>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team.
+                We start with a friendly chat—listening to your ideas, answering
+                your questions, and understanding what matters most to you.
+                Together, we’ll set clear goals for your project.
               </p>
             </div>
           </div>
@@ -52,8 +53,9 @@ const WorkingProcess = ({
               </div>
               <h4 className="mb-2">Testing &amp; Trying</h4>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team.
+                See your vision come to life! We’ll share early versions, invite
+                your feedback, and make sure everything feels just right before
+                moving forward.
               </p>
             </div>
           </div>
@@ -75,8 +77,9 @@ const WorkingProcess = ({
               </div>
               <h4 className="mb-2">Execute &amp; Install</h4>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team.
+                Sit back and relax while our experts build, launch, and set up
+                your solution—always keeping you in the loop and handling every
+                detail with care.
               </p>
             </div>
           </div>
@@ -93,8 +96,9 @@ const WorkingProcess = ({
               </div>
               <h4 className="mb-2">Review &amp; Fixing</h4>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team.
+                We walk through everything together, polish the final details,
+                and make sure you’re delighted with the results. Your satisfaction
+                is our top priority!
               </p>
             </div>
           </div>

@@ -18,15 +18,8 @@ const page = () => {
             </h2>
           </div>
           <div className="row g-5">
-            <div className="col-xl-6 col-lg-6 col-md-12">
+            <div className="col-8 mx-auto">
               <div className="faq-content me-xl-4 mt-xl-5">
-                <div className="faq-accordion mt-4 mt-md-0 ">
-                  <Home2Accordion />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-12">
-              <div className="faq-content ms-xl-4 mt-xl-5">
                 <div className="faq-accordion mt-4 mt-md-0 ">
                   <Home2Accordion />
                 </div>
