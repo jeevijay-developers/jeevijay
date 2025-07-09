@@ -66,13 +66,13 @@ const OurClients = () => {
     let position = 0
     const speed = 0.5 // Smooth continuous speed
     const cardWidth = 230 // Card width + margin
-    const totalCards = clientLogos.length
-    const resetPoint = -(cardWidth * totalCards) // Reset when one full set scrolls
+    const totalCards = infiniteLogos.length // Use infiniteLogos length instead
+    const resetPoint = -(cardWidth * clientLogos.length) // Reset after original set, not infinite set
 
     const animate = () => {
       position -= speed
       
-      // Reset position seamlessly when first set completes
+      // Reset position seamlessly when first original set completes
       if (position <= resetPoint) {
         position = 0
       }
