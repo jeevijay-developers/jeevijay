@@ -16,11 +16,15 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <div className="sub-title">
-              <span>PRICING PLAN</span>
+              <span>OUR PRICING</span>
             </div>
             <h2 className="split-text right">
-              Pricing That Suits <br /> Your Needs
+              Simple, Transparent Pricing<br />
+              For Every Stage of Your Growth
             </h2>
+            <p className="mt-3 text-muted">
+              Choose a plan that fits your business today—and scale up as you grow. No hidden fees, no surprises. Just real value, every month.
+            </p>
           </div>
           <Pricing />
         </div>
@@ -30,14 +34,14 @@ const page = () => {
         <div className="shape">
           <img className="shape-1" src="assets/img/shape/shape-20.png" alt="" />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <div className="brand-inner">
             <p className="text-center mb-5 title">
-              Trusted by&nbsp;3450+&nbsp;happy customers from the whole world
+              Join 3,450+ happy clients who trust Jeevijay to power their digital journey
             </p>
             <BrandSlider />
           </div>
-        </div>
+        </div> */}
       </div>
       {/* Process Section Start */}
       <WorkingProcess />

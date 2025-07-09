@@ -6,37 +6,37 @@ export const Home2Accordion = () => {
   const faqData = [
     {
       id: "faq1",
-      question: "How to Create a Chatbot to Fit Your Needs?",
+      question: "How do I get started with Jeevijay for my project?",
       answer:
-        "We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall.",
+        "Just reach out to us through our contact form or give us a call. We'll listen to your needs, answer your questions, and guide you through the next steps—no tech jargon, just friendly advice.",
       delay: ".3s",
     },
     {
       id: "faq2",
-      question: "What is off page SEO link building?",
+      question: "What makes Jeevijay different from other IT companies?",
       answer:
-        "We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall.",
+        "We treat every project as if it’s our own. Our team combines technical expertise with a genuine commitment to your success. We’re transparent, responsive, and always here to help you grow.",
       delay: ".7s",
     },
     {
       id: "faq3",
-      question: "How to Create a Chatbot to Fit Your Needs?",
+      question: "Can you help me improve my website’s Google ranking?",
       answer:
-        "We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall.",
+        "Absolutely! Our SEO experts use proven strategies to boost your visibility, attract more visitors, and turn them into loyal customers. We’ll explain everything in simple terms and show you real results.",
       delay: ".7s",
     },
     {
       id: "faq4",
-      question: "How can I order web design for my website?",
+      question: "How long does it take to build a website or app?",
       answer:
-        "We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall.",
+        "Every project is unique, but we’ll give you a clear timeline before we start. We work efficiently and keep you updated at every step, so there are no surprises.",
       delay: ".7s",
     },
     {
       id: "faq5",
-      question: "How To Choose A Good QA Consultant?",
+      question: "What kind of support do you offer after launch?",
       answer:
-        "We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall.",
+        "We’re with you for the long haul! Whether you need updates, troubleshooting, or just some advice, our support team is always a call or message away.",
       delay: ".5s",
       show: true,
     },

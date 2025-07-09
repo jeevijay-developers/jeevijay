@@ -11,8 +11,9 @@ const Pricing = () => {
           <div className="header">
             <h4>Basic Plan</h4>
             <span>
-              Perfect for startups and small businesses looking to establish an
-              online presence.
+              Great for startups and small businesses taking their first step
+              online. Get all the essentials to build your brand and connect with
+              your audience.
             </span>
           </div>
           <div className="price">
@@ -24,35 +25,35 @@ const Pricing = () => {
           <ul className="list">
             <li>
               <i className="fas fa-check-circle" />
-              Social Media Management With Algorithm
+              Social Media Management with smart scheduling
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              10 Flyer Posts Per Month (Custom Graphics And Captions)
+              Custom-designed flyer posts every month
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Weekly 1 Reel & Shorts Video (4 In A Month)
+              Engaging reels & shorts to grow your audience
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Audience Engagement
+              Active audience engagement & community building
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook & Instagram Ads Creative Creation & Design
+              Creative ad design for Facebook & Instagram
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Ad Campaign Creation
+              Ad campaign setup & monitoring
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook Business Manager Set Up
+              Facebook Business Manager setup
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Ad Campaign Monitoring
+              Regular performance updates
             </li>
           </ul>
           <div className="price-img">
@@ -82,8 +83,8 @@ const Pricing = () => {
           <div className="header">
             <h4>Standard Plan</h4>
             <span>
-              Ideal for growing businesses seeking to expand their reach and
-              improve ROI.
+              Perfect for growing businesses ready to boost their digital presence
+              and see real results. More content, more reach, more engagement.
             </span>
           </div>
           <div className="price">
@@ -95,35 +96,31 @@ const Pricing = () => {
           <ul className="list">
             <li>
               <i className="fas fa-check-circle" />
-              Social Media Management With Algorithm
+              Social Media Management with smart scheduling
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              20 Flyer Posts Per Month (Custom Graphics And Captions)
+              20 custom flyer posts per month
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Weekly 2 Reel & Shorts Video (8 In A Month)
+              8 engaging reels & shorts every month
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Audience Engagement
+              Active audience engagement & community building
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook & Instagram Ads Creative Creation & Design
+              Creative ad design for Facebook & Instagram
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Ad Campaign Creation
+              Ad campaign setup & monitoring
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook Business Manager Set Up
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Ad Campaign Monitoring
+              Facebook Business Manager setup
             </li>
             <li>
               <i className="fas fa-check-circle" />
@@ -131,11 +128,11 @@ const Pricing = () => {
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Youtube Ad Account Set Up
+              Youtube Ad Account setup
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              A/B Testing Of Ad Set, Creative And Placement
+              A/B testing for better results
             </li>
           </ul>
           <div className="price-img">
@@ -151,8 +148,9 @@ const Pricing = () => {
           <div className="header">
             <h4>Premium Plan</h4>
             <span>
-              Designed for established businesses aiming for full-scale digital
-              domination.
+              For ambitious brands who want to lead the market. Unlock advanced
+              features, daily content, and powerful ad strategies for maximum
+              impact.
             </span>
           </div>
           <div className="price">
@@ -164,35 +162,31 @@ const Pricing = () => {
           <ul className="list">
             <li>
               <i className="fas fa-check-circle" />
-              Social Media Management With Algorithm
+              Social Media Management with smart scheduling
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Daily Flyer Post (Custom Graphics And Captions)
+              Daily custom flyer posts
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Weekly 3 Reel & Shorts Video (12 In A Month)
+              12 reels & shorts every month
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Audience Engagement
+              Active audience engagement & community building
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook & Instagram Ads Creative Creation & Design
+              Creative ad design for Facebook & Instagram
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Ad Campaign Creation
+              Ad campaign setup & monitoring
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Facebook Business Manager Set Up
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Ad Campaign Monitoring
+              Facebook Business Manager setup
             </li>
             <li>
               <i className="fas fa-check-circle" />
@@ -200,35 +194,19 @@ const Pricing = () => {
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Youtube Ad Account Set Up
+              Youtube Ad Account setup
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              A/B Testing Of Ad Set, Creative And Placement
+              A/B testing for best performance
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Youtube Ads
+              Youtube Ads (all formats)
             </li>
             <li>
               <i className="fas fa-check-circle" />
-              Dynamic Ads Creation
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Bumper Ads
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Skippable In-Stream Ads
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Non - Skippable In-Stream Ads
-            </li>
-            <li>
-              <i className="fas fa-check-circle" />
-              Carousel And Collection Ads
+              Dynamic & carousel ads
             </li>
           </ul>
           <div className="price-img">

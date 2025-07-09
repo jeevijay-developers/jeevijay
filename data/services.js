@@ -3,21 +3,23 @@ const services = [
     id: 1,
     title: "Web Development",
     description:
-      "We create fast, responsive websites using modern technologies.",
+      "Get a website that’s fast, beautiful, and works perfectly on any device—built just for your business.",
     link: "services-details/web-development",
     icons: "flaticon-web-development",
   },
   {
     id: 2,
     title: "App Development",
-    description: "Mobile apps for Android and iOS with great user experience.",
+    description:
+      "We create mobile apps that are easy to use and help you connect with your customers, wherever they are.",
     link: "services-details/app-development",
     icons: "bi bi-phone",
   },
   {
     id: 3,
     title: "UI/UX Design",
-    description: "Designing intuitive, modern interfaces for all screen sizes.",
+    description:
+      "Delight your users with modern, intuitive designs that make every interaction a pleasure.",
     link: "services-details/ui-ux-design",
     icons: "flaticon-user-experience",
   },
@@ -25,7 +27,7 @@ const services = [
     id: 4,
     title: "Business Planning",
     description:
-      "Strategic digital planning to help businesses grow and succeed.",
+      "Let’s map out your digital journey together, with strategies that help you grow and succeed.",
     link: "services-details/business-planning",
     icons: "flaticon-strategy",
   },
@@ -33,7 +35,7 @@ const services = [
     id: 5,
     title: "Management",
     description:
-      "Optimizing workflows to increase efficiency and reduce waste.",
+      "We streamline your processes so you can focus on what matters—growing your business.",
     link: "services-details/management",
     icons: "flaticon-maintenance",
   },
@@ -41,21 +43,23 @@ const services = [
     id: 6,
     title: "Digital marketing",
     description:
-      "Boost online visibility through SEO and social media strategies.",
+      "Reach more people and boost your brand with smart SEO and social media strategies that work.",
     link: "services-details/digital-marketing",
     icons: "flaticon-engineering",
   },
   {
     id: 7,
     title: "Graphic and Brand Development",
-    description: "Creating logos and visuals that define your brand identity.",
+    description:
+      "Stand out with a memorable logo and visuals that truly reflect your brand’s personality.",
     link: "services-details/graphic-and-brand-development",
     icons: "flaticon-management",
   },
   {
     id: 8,
     title: "IT Consultancy",
-    description: "Expert tech advice to navigate digital challenges smoothly.",
+    description:
+      "Get honest, expert advice to solve your tech challenges and plan for the future with confidence.",
     link: "services-details/it-consultant",
     icons: "flaticon-connection",
   },

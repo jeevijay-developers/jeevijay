@@ -61,14 +61,14 @@ const page = () => {
         <div className="shape">
           <img className="shape-1" src="assets/img/shape/shape-20.png" alt="some shape" />
         </div>
-        <div className="container">
+        {/* <div className="container">
           <div className="brand-inner">
             <p className="text-center mb-5 title">
               Trusted by&nbsp;3450+&nbsp;happy customers from the whole world
             </p>
             <BrandSlider />
           </div>
-        </div>
+        </div> */}
       </section>
       {/* Blog Section Start */}
       <Blog />
