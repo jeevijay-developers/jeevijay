@@ -37,7 +37,9 @@ const page = () => {
                   <h1>Empowering Ideas with Technological Excellence</h1>
                   <p style={{ color: "#ddd" }}>
                    
-                     Jeevijay Technologies is a leading Indian tech company delivering software, mobile apps, websites, and digital marketing. We build scalable IT systems and tools for startups, enterprises, and institutions—driving digital growth and innovation.
+                     Jeevijay Technologies is a leading Indian tech company delivering software, mobile apps, websites, 
+                     and digital marketing. We build scalable IT systems and tools for startups, enterprises, and institutions—driving digital
+                      growth and innovation.
                   </p>
                   <div className="hero-button mt-4">
                     <Link href="causes" className="theme-btn">
@@ -245,14 +247,13 @@ const page = () => {
                       <span>ABOUT OUR COMPANY</span>
                     </div>
                     <h2 className="split-text right">
-                      Highly Tailored Technology, Develop <br /> &amp; Support
-                      Services.
+                      Enthusiastically Recommended By <br />  Leaders in All Fields
+                       
                     </h2>
                   </div>
                   <p>
-                    Accelerate innovation with world-class tech teams We’ll
-                    match you to an entire remote team of incredible freelance
-                    talent for all your software development needs.
+                  Having worked with the best in class brands, we create fast-growth, high visibility 
+                  initiatives in this competitive digital world. 
                   </p>
                   <ul>
                     <li>
