@@ -36,7 +36,8 @@ const page = () => {
                 <div className="hero-content pe-xl-3 text-lg-start text-center ">
                   <h1>Empowering Ideas with Technological Excellence</h1>
                   <p style={{ color: "#ddd" }}>
-                    Empowering brands with performance-driven websites, digital marketing, mobile apps, ERP systems, and industrial automation Solutions. We build smart technology for modern businesses and institutions ready to lead in the digital age.
+                   
+                     Jeevijay Technologies is a leading Indian tech company delivering software, mobile apps, websites, and digital marketing. We build scalable IT systems and tools for startups, enterprises, and institutions—driving digital growth and innovation.
                   </p>
                   <div className="hero-button mt-4">
                     <Link href="causes" className="theme-btn">
@@ -126,16 +127,14 @@ const page = () => {
                       Digital Marketing and SEO
                     </Link>
                   </h4>
-                  <p>At Jeevijay, our mission is to you empower businesses.</p>
+                  <p>We don’t just advertise — Yes, we sell more. We 
+                                  offer marketing services such as: SEO, PPC Campaigns, Lead Generation</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
                     </li>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -152,22 +151,20 @@ const page = () => {
                       Web and Mobile Development
                     </Link>
                   </h4>
-                  <p>At Jeevijay, our mission is to you empower businesses.</p>
-                  <ul>
+                  <p>We build  kind, fast and beautiful 
+                   website and Native & Cross-Platform Mobile Apps apps with stunning design and seamless UX across platforms.</p>
+                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
                     </li>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
               <div
                 className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
-                data-wow-delay="600ms"
+                data-wow-delay="600ms" 
               >
                 <div className="single-feature-item">
                   <div className="icon">
@@ -178,16 +175,13 @@ const page = () => {
                       Business and IT Consultancy
                     </Link>
                   </h4>
-                  <p>At Jeevijay, our mission is to you empower businesses.</p>
-                  <ul>
+                  <p>Streamline your business with custom ERP solutions that boost productivity, improve data management, and keep operations organized</p>
+                    <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
                     </li>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -202,12 +196,8 @@ const page = () => {
                   <h4>
                     <Link href="services-details">Advance Tool and Design</Link>
                   </h4>
-                  <p>At Jeevijay, our mission is to you empower businesses.</p>
-                  <ul>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
+                  <p>We create advanced tools and intuitive designs that boost efficiency, simplify workflows, and improve the overall user experience across platforms</p>
+                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
@@ -218,6 +208,10 @@ const page = () => {
             </div>
           </div>
         </section>
+        <section className="position-relative" style={{ top: "20px" }}>
+            <OurClients />
+        </section>
+         
         {/* About Section Start */}
         <section className="about-wrapper about-1 section-padding">
           <div className="container">
@@ -292,6 +286,7 @@ const page = () => {
             </div>
           </div>
         </section>
+  
         {/* Service Section Start */}
         <section className="service-wrapper service-1 section-bg section-padding">
           <div className="shapes">
@@ -629,7 +624,7 @@ const page = () => {
         </section>
         
         {/* Our Clients Section Start */}
-        <OurClients />
+        {/* <OurClients /> */}
         
         {/* Brand Section Start */}
         {/* <section className="brand-wrapper brand-1 section-bg section-padding">
