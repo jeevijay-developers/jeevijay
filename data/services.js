@@ -33,9 +33,10 @@ const services = [
   },
   {
     id: 5,
-    title: "Management",
-    description:
-      "We streamline your processes so you can focus on what matters—growing your business.",
+    title: "ERP Software Solutions",
+    description: "Customized ERP solutions help organize your business, improve data management, and boost productivity.",
+
+
     link: "services-details/management",
     icons: "flaticon-maintenance",
   },

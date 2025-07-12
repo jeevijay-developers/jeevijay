@@ -80,12 +80,14 @@ const page = () => {
                     </ul>
                     <h3>
                       <Link href="/blogs-details">
-                        Holistic Healing: Exploring Health Coaching Techniques
+                        Hospital Automation Systems  <br />
+                       & Management
                       </Link>
                     </h3>
                     <p>
-                      Accelerate innovation with world-class tech teams We’ll
-                      match you to an entire remote team of incredible
+                      Simplify hospital management with solutions
+                      for patient data, billing, appointment systems, and diagnostics—all in one
+                      integrated system.
                     </p>
                     <Link href="/blogs-details" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
@@ -113,12 +115,13 @@ const page = () => {
                     </ul>
                     <h3>
                       <Link href="/blogs-details">
-                        The Art of Self-Care: Lessons from Health Coaching
+                        Solutions for Educational Institution
                       </Link>
                     </h3>
                     <p>
-                      Accelerate innovation with world-class tech teams We’ll
-                      match you to an entire remote team of incredible
+                      From intelligent classrooms to student
+                      CRMs and learning platforms we are transforming the infrastructure of
+                      Educational institutes for improved learning.
                     </p>
                     <Link href="/blogs-details" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />

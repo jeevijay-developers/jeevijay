@@ -23,15 +23,16 @@ const page = () => {
             </h2>
           </div>
           <div className="service-inner text-center overflow-hidden mt-4 pt-3">
-            <div className="row gy-xxl-5">
+            <div className="row gy-xxl-5" >
               {services.map((service, index) => (
                 <div
                   key={index}
                   className="col-xxl-3 col-xl-4 col-lg-6 col-md-6"
+                  
                 >
                   <div
                     className="signle-service-item wow fadeInUp"
-                    data-wow-delay="200ms"
+                    data-wow-delay="200ms"  style={{height : "350px"}}
                   >
                     <div
                       className="service-bg bg-cover"

@@ -3684,6 +3684,7 @@ input.main-search-input::placeholder {
 .service-1 .service-inner {
   position: relative;
   z-index: 11;
+  height: 400px;
 }
 .service-1 .service-inner .countbox h3 {
   font-size: 140px;
