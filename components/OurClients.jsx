@@ -90,14 +90,14 @@ const OurClients = () => {
   }, [])
 
   const sectionStyle = {
-    background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)',
+    background: '#ffff',
     padding: '60px 0',
     position: 'relative',
     overflow: 'hidden'
   }
 
   const headingStyle = {
-    color: '#ffffff',
+    color: '#2a5298',
     fontSize: '2.5rem',
     fontWeight: '700',
     textAlign: 'center',
@@ -108,7 +108,7 @@ const OurClients = () => {
   const containerStyle = {
     background: '#ffffff',
     borderRadius: '20px',
-    padding: '40px 20px',
+    // padding: '40px 20px',
     margin: '0 20px',
     boxShadow: '0 15px 35px rgba(0,0,0,0.1)',
     overflow: 'hidden'
@@ -120,10 +120,16 @@ const OurClients = () => {
   }
 
   const carouselTrackStyle = {
+    
     display: 'flex',
     width: 'fit-content',
+    
     transition: 'none',
+    background : 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)',
+    padding : '20px',
     willChange: 'transform' // Optimize performance
+    
+    
   }
 
   const clientCardStyle = {

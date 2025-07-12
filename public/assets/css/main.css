@@ -2895,7 +2895,7 @@ input.main-search-input::placeholder {
 }
 .features-1 .single-feature-item {
   margin-top: 30px;
-  height: 373px;
+  height: 425px;
   border-radius: 12px;
   background: var(--white);
   padding: 40px;
@@ -2905,6 +2905,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1399px) {
   .features-1 .single-feature-item {
+    height: 350px;
     padding: 20px 30px;
   }
 }
