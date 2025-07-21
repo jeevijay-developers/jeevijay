@@ -115,12 +115,12 @@ const page = () => {
         {/* features Section Start */}
         <section className="features-wrapper features-1">
           <div className="container">
-            <div className="row">
+            <div className="row g-4">
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                 data-wow-delay="200ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item our_features h-100">
                   <div className="icon">
                     <i className="flaticon-web-development" />
                   </div>
@@ -141,10 +141,10 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                 data-wow-delay="400ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-mobile-app" />
                   </div>
@@ -165,10 +165,10 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                 data-wow-delay="600ms" 
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-cms" />
                   </div>
@@ -188,10 +188,10 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                 data-wow-delay="800ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-graphic-design" />
                   </div>
@@ -314,8 +314,8 @@ const page = () => {
                     </h3>
                     <p>Years of Experience</p>
                   </div>
-                  <div className="section-title mt-4">
-                    <h2 className="split-text left">
+                  <div className="section-title ">
+                    <h2 className="split-text  left " >
                       We run all kinds of&nbsp;IT <br /> services&nbsp;that vow
                       your success
                     </h2>
@@ -339,8 +339,8 @@ const page = () => {
                       />
                     </div>
                     <div className="point">
-                      <p>IT Management</p>
-                      <span>86%</span>
+                      <p >IT Management</p>
+                      <span >86%</span>
                     </div>
                   </div>
                   <div className="progress-items">
@@ -357,12 +357,12 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="row mt-4">
+              <div className="row mt-4 g-4">
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                   data-wow-delay="200ms"
                 >
-                  <div className="single-service-item ">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -393,10 +393,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                   data-wow-delay="400ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -427,10 +427,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                   data-wow-delay="600ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -461,10 +461,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                   data-wow-delay="800ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -504,7 +504,7 @@ const page = () => {
             className="bg-image bg-cover"
             style={{ backgroundImage: "url(assets/img/about/bg-1.jpg)" }}
           />
-          <div className="container">
+          <div className="container service1-container">
             <div className="about-content wow fadeInUp" data-wow-delay="300ms">
               <div className="section-title text-center">
                 <div className="sub-title sub-title2">
@@ -703,7 +703,7 @@ const page = () => {
                 Get your it solutions in 3 <br /> easy steps
               </h2>
             </div>
-            <div className="process-items d-grid justify-content-between">
+            <div className="process-items d-flex gap-15">
               <div
                 className="single-process-item text-center mt-xxl-5 pt-xxl-4 wow fadeInUp"
                 data-wow-delay="200ms"

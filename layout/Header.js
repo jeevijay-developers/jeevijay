@@ -38,7 +38,7 @@ const Header1 = () => {
             {/* /.topbar__info */}
             <div className="social">
               <a
-                href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F"
+                href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F" target="_blank"
                 style={{ marginRight: "12px" }}
               >
                 <i
@@ -46,10 +46,26 @@ const Header1 = () => {
                   style={{ fontSize: "1.5rem" }}
                 />
               </a>
+              <a
+                href="https://www.linkedin.com/company/jeevijay-technologies" target="_blank"
+                style={{ marginRight: "12px" }}
+              >
+                <i
+                  className="fab fa-linkedin-in"
+                  style={{ fontSize: "1.5rem" }}
+                ></i>
+              </a>
 
-              <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#">
+              <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#" target="_blank"
+                style={{ marginRight: "12px" }}>
                 <i
                   className="fab fa-instagram"
+                  style={{ fontSize: "1.5rem" }}
+                />
+              </a>
+              <a href="https://youtube.com/@jeevijaytechnologies?si=_5Ksux83JxD6cOVj" target="_blank">
+                <i
+                  className="fab fa-youtube"
                   style={{ fontSize: "1.5rem" }}
                 />
               </a>
@@ -469,7 +485,7 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
@@ -788,19 +804,34 @@ const MobileMenu = () => {
                   </a>
                 </div>
                 <div className="social-icon d-flex align-items-center">
-                  <a href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F#">
+                  <a href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F#" target="_blank">
                     <i
                       className="fab fa-facebook-f"
                       style={{ fontSize: "1.5rem" }}
                     />
                   </a>
+                  <a
+                    href="https://www.linkedin.com/company/jeevijay-technologies" target="_blank"
+                  
+                  >
+                    <i
+                      className="fab fa-linkedin-in"
+                      style={{ fontSize: "1.5rem" }}
+                    ></i>
+                  </a>
 
-                  <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#">
+                  <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#" target="_blank">
                     <i
                       className="fab fa-instagram"
                       style={{ fontSize: "1.5rem" }}
                     />
                   </a>
+                    <a href="https://youtube.com/@jeevijaytechnologies?si=_5Ksux83JxD6cOVj" target="_blank">
+                <i
+                  className="fab fa-youtube"
+                  style={{ fontSize: "1.5rem" }}
+                />
+              </a>
                 </div>
               </div>
             </div>

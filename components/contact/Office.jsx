@@ -62,8 +62,7 @@ const Office = () => {
                 <div>
                   <h5 className="card-title mb-1">Bhopal</h5>
                   <p className="card-text text-muted mb-2">
-                    34, Piyush Nagar Awadhpuri, Near ISBT Bus Stand, Bhopal,
-                    Madhya Pradesh (462022)
+                    Shop No. 110, Neelkamal Complex, opposite Manohar Dairy, MP Nagar, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011
                   </p>
                 </div>
               </div>

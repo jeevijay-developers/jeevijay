@@ -125,7 +125,7 @@ const page = () => {
                         data-percent="90%"
                       />
                     </div>
-                    <div className="point">
+                    <div className="point text-white">
                       <p>Data Security</p>
                       <span>90%</span>
                     </div>

@@ -55,7 +55,7 @@ const Footer1 = () => {
                       </span>
                     </li>
                     <li className="mb-2 d-flex align-items-start gap-2">
-                      <Building2 size={38} className="mt-1 text-warning" />
+                      <Building2 size={28} className="mt-1 text-warning" />
                       <span>
                         Branch Office - White Field, HN - 1, Sai Colony
                         Extension, Belathur, Kadugodi, Bengaluru, Karnataka
@@ -63,10 +63,10 @@ const Footer1 = () => {
                       </span>
                     </li>
                     <li className="mb-2 d-flex align-items-start gap-2">
-                      <Building2 size={28} className="mt-1 text-warning" />
+                      <Building2 size={38} className="mt-1 text-warning" />
                       <span>
-                        34, Piyush nagar Awadhpuri, Near ISBT bus Stand Bhopal
-                        Madhya Pradesh (462022)
+                        Shop No. 110, Neelkamal Complex, opposite Manohar Dairy, MP Nagar, Zone-I,
+                        Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011
                       </span>
                     </li>
                     <li className="d-flex align-items-start gap-2">
@@ -405,7 +405,7 @@ const FooterContent = ({
                       </span>
                     </li>
                     <li className="mb-2 d-flex align-items-start gap-2">
-                      <Building2 size={38} className="mt-1 text-warning" />
+                      <Building2 size={28} className="mt-1 text-warning" />
                       <span>
                         Branch Office - White Field, HN - 1, Sai Colony
                         Extension, Belathur, Kadugodi, Bengaluru, Karnataka
@@ -413,10 +413,10 @@ const FooterContent = ({
                       </span>
                     </li>
                     <li className="mb-2 d-flex align-items-start gap-2">
-                      <Building2 size={28} className="mt-1 text-warning" />
+                      <Building2 size={38} className="mt-1 text-warning" />
                       <span>
-                        34, Piyush nagar Awadhpuri, Near ISBT bus Stand Bhopal
-                        Madhya Pradesh (462022)
+                        Shop No. 110, Neelkamal Complex, opposite Manohar Dairy, MP Nagar, Zone-I, 
+                        Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011
                       </span>
                     </li>
                     <li className="d-flex align-items-start gap-2">
@@ -502,7 +502,7 @@ const FooterContent = ({
       </div>
       <div className="footer-bottom style-2">
         <div className="container">
-          <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
+          <div className="footer-bottom-wrapper d-flex flex-column align-items-center justify-content-between">
             <p>Copyright 2025 Jeevijay All Rights Reserved</p>
             <div className="security ">
               <Link href="/contact">Privacy policy</Link>/
