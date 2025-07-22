@@ -391,7 +391,7 @@ const Menu = () => {
             </ul> */}
           </li>
           <li className="has-dropdown active d-xl-none">
-            <a href="#" className="border-none">
+            <a href="/" className="border-none">
               Home
               {/* <i className="fas fa-angle-down" /> */}
             </a>
@@ -616,7 +616,7 @@ const MobileMenu = () => {
                       </li>
                       <li className="has-dropdown  d-xl-none">
                         <a
-                          href="#"
+                          href="/"
                           className="border-none"
                           onClick={() => activeMenuSet("home")}
                         >
@@ -639,7 +639,7 @@ const MobileMenu = () => {
                         </ul> */}
                         <a
                           className="mean-expand"
-                          href="#"
+                          href="/"
                           onClick={() => activeMenuSet("home")}
                         >
                           {/* <i className="far fa-plus" /> */}
@@ -652,23 +652,23 @@ const MobileMenu = () => {
                         </a>
                         <ul className="submenu" style={activeLi("Pages")}>
                           <li>
-                            <Link href="team">Team</Link>
+                            <Link href="/team">Team</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="teams-details">Team Details</Link>
+                          </li> */}
+                          <li>
+                            <Link href="/about">About</Link>
                           </li>
                           <li>
-                            <Link href="about">About</Link>
+                            <Link href="/pricing">Pricing</Link>
                           </li>
                           <li>
-                            <Link href="pricing">Pricing</Link>
+                            <Link href="/faqs">FAQS</Link>
                           </li>
-                          <li>
-                            <Link href="faqs">FAQS</Link>
-                          </li>
-                          <li>
-                            <Link href="404">404</Link>
-                          </li>
+                          {/* <li>
+                            <Link href="/404">404</Link>
+                          </li> */}
                         </ul>
                         <a
                           className="mean-expand"
@@ -679,17 +679,17 @@ const MobileMenu = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#" onClick={() => activeMenuSet("Services")}>
+                        <a href="/services" onClick={() => activeMenuSet("Services")}>
                           Services
                           <i className="fas fa-angle-down" />
                         </a>
                         <ul className="submenu" style={activeLi("Services")}>
                           <li>
-                            <Link href="services">Services Grid</Link>
+                            <Link href="/services">Services Grid</Link>
                           </li>
-                          <li>
-                            <Link href="services-details">Service Details</Link>
-                          </li>
+                          {/* <li>
+                            <Link href="/services">Service Details</Link>
+                          </li> */}
                         </ul>
                         <a
                           className="mean-expand"
@@ -727,13 +727,13 @@ const MobileMenu = () => {
                         </a>
                         <ul className="submenu" style={activeLi("News")}>
                           <li>
-                            <Link href="blogs-grid">Blog Grid</Link>
+                            <Link href="/blogs-grid">Blog Grid</Link>
                           </li>
                           <li>
-                            <Link href="blog-news">Blog &amp; News</Link>
+                            <Link href="/blog-news">Blog &amp; News</Link>
                           </li>
                           <li>
-                            <Link href="blogs-details">Blog Details</Link>
+                            <Link href="/blogs-details">Blog Details</Link>
                           </li>
                         </ul>
                         <a
@@ -745,7 +745,7 @@ const MobileMenu = () => {
                         </a>
                       </li>
                       <li className="mean-last">
-                        <Link href="contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>

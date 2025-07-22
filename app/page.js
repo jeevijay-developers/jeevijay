@@ -129,14 +129,12 @@ const page = () => {
                       Digital Marketing and SEO
                     </Link>
                   </h4>
-                  <p>We don’t just advertise — Yes, we sell more. We 
-                                  offer marketing services such as: SEO, PPC Campaigns, Lead Generation</p>
+                  <p>Jeevijay Technologies is a Results-Driven Digital Marketing Agency to Grow your Business Online.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
                     </li>
-                   
                   </ul>
                 </div>
               </div>
@@ -153,8 +151,7 @@ const page = () => {
                       Web and Mobile Development
                     </Link>
                   </h4>
-                  <p>We build  kind, fast and beautiful 
-                   website and Native & Cross-Platform Mobile Apps apps with stunning design and seamless UX across platforms.</p>
+                  <p>We Offer Expert Website & App Development Services Tailored to your Business Goals.</p>
                    <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -174,10 +171,10 @@ const page = () => {
                   </div>
                   <h4>
                     <Link href="services-details">
-                      Business and IT Consultancy
+                     Graphic Design & Brand Development
                     </Link>
                   </h4>
-                  <p>Streamline your business with custom ERP solutions that boost productivity, improve data management, and keep operations organized</p>
+                  <p>We offer Brand Design & Strategy to Help Startups or Growing Brands Shape a Strong Identity</p>
                     <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -196,9 +193,9 @@ const page = () => {
                     <i className="flaticon-graphic-design" />
                   </div>
                   <h4>
-                    <Link href="services-details">Advance Tool and Design</Link>
+                    <Link href="services-details">Smart Automation Solutions</Link>
                   </h4>
-                  <p>We create advanced tools and intuitive designs that boost efficiency, simplify workflows, and improve the overall user experience across platforms</p>
+                  <p>We offer Industrial, Hospital & Educational Institutions Automation for smarter, Efficient Operations.</p>
                    <ul>
                     <li>
                       <i className="fas fa-check-circle" />
