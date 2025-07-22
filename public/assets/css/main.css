@@ -3222,6 +3222,13 @@ input.main-search-input::placeholder {
 .about-1 .about-content p {
   padding-top: 20px;
 }
+.about-1 .about-content h2 {
+  color: rgba(0, 85, 255, 0.611);
+}
+.about-1 .about-content h3 {
+  margin-top: 1rem;
+  color: rgba(0, 85, 255, 0.611);
+}
 .about-1 .about-content ul {
   padding-top: 30px;
   text-align: start;
