@@ -65,8 +65,9 @@ const Footer1 = () => {
                     <li className="mb-2 d-flex align-items-start gap-2">
                       <Building2 size={28} className="mt-1 text-warning" />
                       <span>
-                        34, Piyush nagar Awadhpuri, Near ISBT bus Stand Bhopal
-                        Madhya Pradesh (462022)
+                        Shop No. 110, Neelkamal Complex, opposite Manohar Dairy,
+                        MP Nagar, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya
+                        Pradesh (462011)
                       </span>
                     </li>
                     <li className="d-flex align-items-start gap-2">
