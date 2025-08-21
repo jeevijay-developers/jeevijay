@@ -40,9 +40,9 @@ const page = () => {
       delay: "200ms",
     },
     {
-      role: "Full Stack Developer",
-      name: "Abhishek Yadav",
-      image: "/OurTeam/Abhishek.jpg",
+      role: "Digital Marketing Executive ",
+      name: "Vinita Jain",
+      image: "/OurTeam/vinita.jpeg",
       delay: "400ms",
     },
   ];

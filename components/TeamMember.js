@@ -68,7 +68,7 @@ export const Team = ({ teamMembers }) => {
             <div className="content">
               <p>{member.role}</p>
               <h4>
-                <Link href="/teams-details">{member.name}</Link>
+                <div>{member.name}</div>
               </h4>
               <div className="social d-flex align-items-center justify-content-center">
                 <a href="#">
