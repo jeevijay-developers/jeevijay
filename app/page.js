@@ -115,12 +115,12 @@ const page = () => {
         {/* features Section Start */}
         <section className="features-wrapper features-1">
           <div className="container">
-            <div className="row">
+            <div className="row g-4">
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                 data-wow-delay="200ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item our_features h-100">
                   <div className="icon">
                     <i className="flaticon-web-development" />
                   </div>
@@ -129,22 +129,20 @@ const page = () => {
                       Digital Marketing and SEO
                     </Link>
                   </h4>
-                  <p>We don’t just advertise — Yes, we sell more. We 
-                                  offer marketing services such as: SEO, PPC Campaigns, Lead Generation</p>
+                  <p>Jeevijay Technologies is a Results-Driven Digital Marketing Agency to Grow your Business Online.</p>
                   <ul>
                     <li>
                       <i className="fas fa-check-circle" />
                       Career progression
                     </li>
-                   
                   </ul>
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                 data-wow-delay="400ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-mobile-app" />
                   </div>
@@ -153,8 +151,7 @@ const page = () => {
                       Web and Mobile Development
                     </Link>
                   </h4>
-                  <p>We build  kind, fast and beautiful 
-                   website and Native & Cross-Platform Mobile Apps apps with stunning design and seamless UX across platforms.</p>
+                  <p>We Offer Expert Website & App Development Services Tailored to your Business Goals.</p>
                    <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -165,19 +162,19 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                 data-wow-delay="600ms" 
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-cms" />
                   </div>
                   <h4>
                     <Link href="services-details">
-                      Business and IT Consultancy
+                     Graphic Design & Brand Development
                     </Link>
                   </h4>
-                  <p>Streamline your business with custom ERP solutions that boost productivity, improve data management, and keep operations organized</p>
+                  <p>We offer Brand Design & Strategy to Help Startups or Growing Brands Shape a Strong Identity</p>
                     <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -188,17 +185,17 @@ const page = () => {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-12 wow fadeInUp"
+                className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                 data-wow-delay="800ms"
               >
-                <div className="single-feature-item">
+                <div className="single-feature-item h-100">
                   <div className="icon">
                     <i className="flaticon-graphic-design" />
                   </div>
                   <h4>
-                    <Link href="services-details">Advance Tool and Design</Link>
+                    <Link href="services-details">Smart Automation Solutions</Link>
                   </h4>
-                  <p>We create advanced tools and intuitive designs that boost efficiency, simplify workflows, and improve the overall user experience across platforms</p>
+                  <p>We offer Industrial, Hospital & Educational Institutions Automation for smarter, Efficient Operations.</p>
                    <ul>
                     <li>
                       <i className="fas fa-check-circle" />
@@ -314,8 +311,8 @@ const page = () => {
                     </h3>
                     <p>Years of Experience</p>
                   </div>
-                  <div className="section-title mt-4">
-                    <h2 className="split-text left">
+                  <div className="section-title ">
+                    <h2 className="split-text  left " >
                       We run all kinds of&nbsp;IT <br /> services&nbsp;that vow
                       your success
                     </h2>
@@ -339,8 +336,8 @@ const page = () => {
                       />
                     </div>
                     <div className="point">
-                      <p>IT Management</p>
-                      <span>86%</span>
+                      <p >IT Management</p>
+                      <span >86%</span>
                     </div>
                   </div>
                   <div className="progress-items">
@@ -357,12 +354,12 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="row mt-4">
+              <div className="row mt-4 g-4">
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                   data-wow-delay="200ms"
                 >
-                  <div className="single-service-item ">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -393,10 +390,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-xl-0 wow fadeInUp"
                   data-wow-delay="400ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -427,10 +424,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                   data-wow-delay="600ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -461,10 +458,10 @@ const page = () => {
                   </div>
                 </div>
                 <div
-                  className="col-xl-3 col-lg-6 col-md-6 col-12  wow fadeInUp"
+                  className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
                   data-wow-delay="800ms"
                 >
-                  <div className="single-service-item">
+                  <div className="single-service-item h-100">
                     <div className="shape">
                       <img
                         className="shape-3"
@@ -504,7 +501,7 @@ const page = () => {
             className="bg-image bg-cover"
             style={{ backgroundImage: "url(assets/img/about/bg-1.jpg)" }}
           />
-          <div className="container">
+          <div className="container service1-container">
             <div className="about-content wow fadeInUp" data-wow-delay="300ms">
               <div className="section-title text-center">
                 <div className="sub-title sub-title2">
@@ -703,7 +700,7 @@ const page = () => {
                 Get your it solutions in 3 <br /> easy steps
               </h2>
             </div>
-            <div className="process-items d-grid justify-content-between">
+            <div className="process-items d-flex gap-15">
               <div
                 className="single-process-item text-center mt-xxl-5 pt-xxl-4 wow fadeInUp"
                 data-wow-delay="200ms"

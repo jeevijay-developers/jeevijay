@@ -12,7 +12,7 @@ const ChooseUs = ({
             <div className="choose-us-content ms-xl-4 ps-xl-1">
               <div className="section-title">
                 <div className="sub-title">
-                  <span>WHY CHOOSE US</span>
+                  <span>Why Choose Jeevijay Technologies?</span>
                 </div>
                 <h2 className="split-text right">
                   Your Success, Our Commitment<br />
@@ -20,7 +20,7 @@ const ChooseUs = ({
                 </h2>
               </div>
               <p className="mt-4">
-                At Jeevijay Technologies, we’re more than just an IT company—we’re your technology partner. Our clients choose us for our honesty, expertise, and the way we treat every project as if it’s our own. We listen, we care, and we deliver solutions that make a real difference for your business.
+               At Jeevijay Technologies, innovation & technical expertise teamed with a focus on customer's requirements allow us to develop tailored solutions. Our services are crafted to power businesses across domains, from high-performance website and mobile applications to comprehensive ERP solutions and industrial automation. Our expertise is in digital marketing: from advanced SEO and pay-per-click (both of which provide a big-picture advantage for businesses of all sizes) to pay-per-lead strategies that evolve in real-time to customers intent on your brand. It is also integrated for use in schools as well as hospital automation to deliver efficiency and enable the digital transformation. Backed by cutting-edge technologies such as AI, Flutter, and industry-leading tools, we guarantee smooth project delivery, measurable impact, and personalized.
               </p>
               <div className="reviews d-flex mt-4 pt-3">
                 <div className="infu">

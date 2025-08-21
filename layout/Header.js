@@ -38,7 +38,7 @@ const Header1 = () => {
             {/* /.topbar__info */}
             <div className="social">
               <a
-                href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F"
+                href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F" target="_blank"
                 style={{ marginRight: "12px" }}
               >
                 <i
@@ -46,10 +46,26 @@ const Header1 = () => {
                   style={{ fontSize: "1.5rem" }}
                 />
               </a>
+              <a
+                href="https://www.linkedin.com/company/jeevijay-technologies" target="_blank"
+                style={{ marginRight: "12px" }}
+              >
+                <i
+                  className="fab fa-linkedin-in"
+                  style={{ fontSize: "1.5rem" }}
+                ></i>
+              </a>
 
-              <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#">
+              <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#" target="_blank"
+                style={{ marginRight: "12px" }}>
                 <i
                   className="fab fa-instagram"
+                  style={{ fontSize: "1.5rem" }}
+                />
+              </a>
+              <a href="https://youtube.com/@jeevijaytechnologies?si=_5Ksux83JxD6cOVj" target="_blank">
+                <i
+                  className="fab fa-youtube"
                   style={{ fontSize: "1.5rem" }}
                 />
               </a>
@@ -375,7 +391,7 @@ const Menu = () => {
             </ul> */}
           </li>
           <li className="has-dropdown active d-xl-none">
-            <a href="#" className="border-none">
+            <a href="/" className="border-none">
               Home
               {/* <i className="fas fa-angle-down" /> */}
             </a>
@@ -469,7 +485,7 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
@@ -600,7 +616,7 @@ const MobileMenu = () => {
                       </li>
                       <li className="has-dropdown  d-xl-none">
                         <a
-                          href="#"
+                          href="/"
                           className="border-none"
                           onClick={() => activeMenuSet("home")}
                         >
@@ -623,7 +639,7 @@ const MobileMenu = () => {
                         </ul> */}
                         <a
                           className="mean-expand"
-                          href="#"
+                          href="/"
                           onClick={() => activeMenuSet("home")}
                         >
                           {/* <i className="far fa-plus" /> */}
@@ -636,23 +652,23 @@ const MobileMenu = () => {
                         </a>
                         <ul className="submenu" style={activeLi("Pages")}>
                           <li>
-                            <Link href="team">Team</Link>
+                            <Link href="/team">Team</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="teams-details">Team Details</Link>
+                          </li> */}
+                          <li>
+                            <Link href="/about">About</Link>
                           </li>
                           <li>
-                            <Link href="about">About</Link>
+                            <Link href="/pricing">Pricing</Link>
                           </li>
                           <li>
-                            <Link href="pricing">Pricing</Link>
+                            <Link href="/faqs">FAQS</Link>
                           </li>
-                          <li>
-                            <Link href="faqs">FAQS</Link>
-                          </li>
-                          <li>
-                            <Link href="404">404</Link>
-                          </li>
+                          {/* <li>
+                            <Link href="/404">404</Link>
+                          </li> */}
                         </ul>
                         <a
                           className="mean-expand"
@@ -663,17 +679,17 @@ const MobileMenu = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#" onClick={() => activeMenuSet("Services")}>
+                        <a href="/services" onClick={() => activeMenuSet("Services")}>
                           Services
                           <i className="fas fa-angle-down" />
                         </a>
                         <ul className="submenu" style={activeLi("Services")}>
                           <li>
-                            <Link href="services">Services Grid</Link>
+                            <Link href="/services">Services Grid</Link>
                           </li>
-                          <li>
-                            <Link href="services-details">Service Details</Link>
-                          </li>
+                          {/* <li>
+                            <Link href="/services">Service Details</Link>
+                          </li> */}
                         </ul>
                         <a
                           className="mean-expand"
@@ -711,13 +727,13 @@ const MobileMenu = () => {
                         </a>
                         <ul className="submenu" style={activeLi("News")}>
                           <li>
-                            <Link href="blogs-grid">Blog Grid</Link>
+                            <Link href="/blogs-grid">Blog Grid</Link>
                           </li>
                           <li>
-                            <Link href="blog-news">Blog &amp; News</Link>
+                            <Link href="/blog-news">Blog &amp; News</Link>
                           </li>
                           <li>
-                            <Link href="blogs-details">Blog Details</Link>
+                            <Link href="/blogs-details">Blog Details</Link>
                           </li>
                         </ul>
                         <a
@@ -729,7 +745,7 @@ const MobileMenu = () => {
                         </a>
                       </li>
                       <li className="mean-last">
-                        <Link href="contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
@@ -788,19 +804,34 @@ const MobileMenu = () => {
                   </a>
                 </div>
                 <div className="social-icon d-flex align-items-center">
-                  <a href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F#">
+                  <a href="https://www.facebook.com/Jeevijaytech?rdid=e484dleKZP71zSIT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14RCFKoHkk%2F#" target="_blank">
                     <i
                       className="fab fa-facebook-f"
                       style={{ fontSize: "1.5rem" }}
                     />
                   </a>
+                  <a
+                    href="https://www.linkedin.com/company/jeevijay-technologies" target="_blank"
+                  
+                  >
+                    <i
+                      className="fab fa-linkedin-in"
+                      style={{ fontSize: "1.5rem" }}
+                    ></i>
+                  </a>
 
-                  <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#">
+                  <a href="https://www.instagram.com/jeevijay.technologies/?igsh=eGtpd2R0djQ4bXEx#" target="_blank">
                     <i
                       className="fab fa-instagram"
                       style={{ fontSize: "1.5rem" }}
                     />
                   </a>
+                    <a href="https://youtube.com/@jeevijaytechnologies?si=_5Ksux83JxD6cOVj" target="_blank">
+                <i
+                  className="fab fa-youtube"
+                  style={{ fontSize: "1.5rem" }}
+                />
+              </a>
                 </div>
               </div>
             </div>

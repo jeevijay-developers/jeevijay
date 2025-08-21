@@ -3,11 +3,15 @@ import { gsap } from "gsap";
 
 export const zotechUtility = {
   stickyHeader: () => {
+    const headerElement = document.getElementById("header-sticky");
+    
+    if (!headerElement) return;
+
     window.addEventListener("scroll", function () {
       if (window.scrollY > 250) {
-        document.getElementById("header-sticky").classList.add("sticky");
+        headerElement.classList.add("sticky");
       } else {
-        document.getElementById("header-sticky").classList.remove("sticky");
+        headerElement.classList.remove("sticky");
       }
     });
   },
@@ -335,12 +339,15 @@ export const zotechUtility = {
 
     const offset = 50;
     const duration = 950;
+    const scrollUpElement = document.querySelector(".scroll-up");
 
     window.addEventListener("scroll", function () {
-      if (window.scrollY > offset) {
-        document.querySelector(".scroll-up").classList.add("active-scroll");
-      } else {
-        document.querySelector(".scroll-up").classList.remove("active-scroll");
+      if (scrollUpElement) {
+        if (window.scrollY > offset) {
+          scrollUpElement.classList.add("active-scroll");
+        } else {
+          scrollUpElement.classList.remove("active-scroll");
+        }
       }
     });
   },

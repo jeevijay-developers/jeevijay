@@ -40,18 +40,27 @@ const AboutMe = ({
                   <span>ABOUT JEEVIJAY TECHNOLOGIES</span>
                 </div>
                 <h2>
-                  Empowering Your Ambitions with Technology
+                  Who we are.
                 </h2>
               </div>
               <p>
-                At Jeevijay Technologies, we believe every business has a unique
-                story. Our mission is to listen, understand, and deliver digital
-                solutions that help you grow, adapt, and lead in your industry.
-                Whether you’re a startup or an established enterprise, we’re here
-                to turn your ideas into reality with technology that works for
-                you.
+                Jeevijay Technologies Private Limited is a dynamic Indian tech company specializing in software development, mobile apps, website solutions, and digital marketing. We deliver scalable IT systems, automation dashboards, and industry specific tools for startups, enterprises, and institutions. Backed by a 35+ expert team, we enable digital growth, smart efficiency, and future-ready innovation across sectors.
               </p>
-              <ul>
+              <br />
+              
+              <div>
+                <h3>Enthusiastically Recommended By Leaders in All Fields.</h3>
+                <p>Having worked with the best in class brands, we create fast-growth, high visibility initiatives in this competitive digital world.</p>
+              </div>
+                <div>
+                <h3>Next-Gen Innovations</h3>
+                <p>From smart automation to state-of-the-art app development to strategic SEO, we craft digital solutions that keep you ahead of the game.</p>
+              </div>
+                <a href="/services" className="theme-btn">
+                  What We Do
+                </a>
+              
+              {/* <ul>
                 <li>
                   <i className="fas fa-check-circle" />
                   Custom website &amp; mobile app development for your business
@@ -66,7 +75,7 @@ const AboutMe = ({
                   <i className="fas fa-check-circle" />
                   Friendly, expert guidance every step of the way
                 </li>
-              </ul>
+              </ul> */}
               <div className="feedback">
                 <div className="infu">
                   <img src="assets/img/about/06.png" alt="" />

@@ -119,6 +119,35 @@ const ServiceDetails = ({ id }) => {
           </div>
         </div>
       </section>
+
+      {/* About Section Start */}
+      {service.about && service.about.length > 0 && (
+        <section className="about-features-section section-padding">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center mb-5">
+                  <h2>Our Professional Services</h2>
+                  <p>Discover the comprehensive solutions we offer to meet your business needs</p>
+                </div>
+              </div>
+            </div>
+            <div className="row g-4">
+              {service.about.map((item, index) => (
+                <div key={index} className="col-lg-6 col-md-6">
+                  <div className="about-feature-card h-100">
+                    <div className="card-content p-4">
+                      <h5 className="card-title mb-3">{item.heading}</h5>
+                      <p className="card-text text-muted">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Process Section Start */}
       <WorkingProcess />
     </ZotechLayout>

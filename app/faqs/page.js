@@ -18,7 +18,7 @@ const page = () => {
             </h2>
           </div>
           <div className="row g-5">
-            <div className="col-8 mx-auto">
+            <div className="col-xl-8 col-lg-10 col-md-12 col-12 mx-auto">
               <div className="faq-content me-xl-4 mt-xl-5">
                 <div className="faq-accordion mt-4 mt-md-0 ">
                   <Home2Accordion />
