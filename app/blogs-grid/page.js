@@ -46,7 +46,7 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
+                      <Link href="/blogs-details/1">
                         Planning your online business goals with a specialist
                       </Link>
                     </h3>
@@ -54,7 +54,7 @@ const page = () => {
                       Accelerate innovation with world-class tech teams We’ll
                       match you to an entire remote team of incredible
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/1" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -79,17 +79,16 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
-                        Hospital Automation Systems  <br />
-                       & Management
+                      <Link href="/blogs-details/2">
+                        Hospital Automation Systems <br />& Management
                       </Link>
                     </h3>
                     <p>
-                      Simplify hospital management with solutions
-                      for patient data, billing, appointment systems, and diagnostics—all in one
-                      integrated system.
+                      Simplify hospital management with solutions for patient
+                      data, billing, appointment systems, and diagnostics—all in
+                      one integrated system.
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/2" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -114,16 +113,16 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
+                      <Link href="/blogs-details/3">
                         Solutions for Educational Institution
                       </Link>
                     </h3>
                     <p>
-                      From intelligent classrooms to student
-                      CRMs and learning platforms we are transforming the infrastructure of
+                      From intelligent classrooms to student CRMs and learning
+                      platforms we are transforming the infrastructure of
                       Educational institutes for improved learning.
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/3" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -148,7 +147,7 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
+                      <Link href="/blogs-details/4">
                         Planning your online business goals with a specialist
                       </Link>
                     </h3>
@@ -156,7 +155,7 @@ const page = () => {
                       Accelerate innovation with world-class tech teams We’ll
                       match you to an entire remote team of incredible
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/4" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -181,7 +180,7 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
+                      <Link href="/blogs-details/5">
                         Holistic Healing: Exploring Health Coaching Techniques
                       </Link>
                     </h3>
@@ -189,7 +188,7 @@ const page = () => {
                       Accelerate innovation with world-class tech teams We’ll
                       match you to an entire remote team of incredible
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/5" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -214,7 +213,7 @@ const page = () => {
                       <li>12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="/blogs-details">
+                      <Link href="/blogs-details/6">
                         The Art of Self-Care: Lessons from Health Coaching
                       </Link>
                     </h3>
@@ -222,7 +221,7 @@ const page = () => {
                       Accelerate innovation with world-class tech teams We’ll
                       match you to an entire remote team of incredible
                     </p>
-                    <Link href="/blogs-details" className="link-btn">
+                    <Link href="/blogs-details/6" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>

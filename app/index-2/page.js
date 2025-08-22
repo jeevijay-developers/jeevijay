@@ -766,7 +766,7 @@ const page = () => {
                   <div className="infu">
                     <p className="text-white opacity-75">Mail us</p>
                     <h3 className="text-white text-lowercase">
-                     info@jeevijay.com
+                      info@jeevijay.com
                     </h3>
                   </div>
                 </div>
@@ -827,11 +827,11 @@ const page = () => {
                       <li className="text-white">12 January, 2025</li>
                     </ul>
                     <h3>
-                      <Link href="blogs-details" className="text-white">
+                      <Link href="blogs-details/1" className="text-white">
                         The Art of Self-Care: Lessons from Health Coaching
                       </Link>
                     </h3>
-                    <Link href="blogs-details" className="link-btn">
+                    <Link href="blogs-details/1" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>

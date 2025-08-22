@@ -721,7 +721,7 @@ const page = () => {
                         Coaching
                       </Link>
                     </h3>
-                    <Link href="news-details" className="link-btn">
+                    <Link href="news-details/1" className="link-btn">
                       Read More <i className="far fa-long-arrow-right" />
                     </Link>
                   </div>
