@@ -1,3 +1,4 @@
+'use client'
 import Pagebanner from "@/components/Pagebanner";
 import Pricing from "@/components/Pricing";
 import WorkingProcess from "@/components/WorkingProcess";
@@ -32,8 +33,20 @@ const page = () => {
                 >
                   <div
                     className="signle-service-item wow fadeInUp"
-                    data-wow-delay="200ms"  style={{height : "350px"}}
+                    data-wow-delay="200ms"  
+                    style={{
+                      height: "auto", 
+                      minHeight: "350px",
+                      color: "#333"
+                    }}
                   >
+                    <style jsx>{`
+                      .signle-service-item:hover ul, 
+                      .signle-service-item:hover li, 
+                      .signle-service-item:hover strong {
+                        color: #fff !important;
+                      }
+                    `}</style>
                     <div
                       className="service-bg bg-cover"
                       style={{
@@ -48,6 +61,16 @@ const page = () => {
                       <Link href="services-details">{service.title}</Link>
                     </h4>
                     <p className="pt-3">{service.description}</p>
+                    {/* Render subpoints if available */}
+                    {service.subpoints && (
+                      <ul className="text-start ps-3" style={{ fontWeight: 400 }}>
+                        {Object.entries(service.subpoints).map(([key, value]) => (
+                          <li key={key} style={{ marginBottom: '0.25rem', transition: 'color 0.3s ease' }}>
+                            <strong style={{ fontWeight: 600 }}>{key}:</strong> {value}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                     <Link href={service.link} className="infu-btn">
                       Read More
                       <i className="far fa-long-arrow-right" />

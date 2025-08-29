@@ -33,13 +33,15 @@ const page = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-12 col-12">
-                <div className="hero-content pe-xl-3 text-lg-start text-center ">
-                  <h1>Empowering Ideas with Technological Excellence</h1>
+                <div className=" hero-content pe-xl-3 text-lg-start text-center ">
+                  <h1 className="whitespace-normal" style={{ width: "50rem" }}>Accelerate Business Growth with Website Development, Strategic Marketing & Industrial Automation Solutions. </h1>
                   <p style={{ color: "#ddd" }}>
-                   
-                     Jeevijay Technologies is a leading Indian tech company delivering software, mobile apps, websites, 
-                     and digital marketing. We build scalable IT systems and tools for startups, enterprises, and institutions—driving digital
-                      growth and innovation.
+
+                    Empowering brands with performance-driven websites,
+                    digital marketing, mobile apps, ERP systems, and
+                    industrial automation Solutions. We build smart
+                    technology for modern businesses and institutions
+                    ready to lead in the digital age.
                   </p>
                   <div className="hero-button mt-4">
                     <Link href="causes" className="theme-btn">
@@ -129,13 +131,8 @@ const page = () => {
                       Digital Marketing and SEO
                     </Link>
                   </h4>
-                  <p>Jeevijay Technologies is a Results-Driven Digital Marketing Agency to Grow your Business Online.</p>
-                  <ul>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
-                  </ul>
+                  <p>Jeevijay Technologies is a Results-Driven Digital Marketing Agency to 
+Grow your Business Online. </p>
                 </div>
               </div>
               <div
@@ -151,19 +148,13 @@ const page = () => {
                       Web and Mobile Development
                     </Link>
                   </h4>
-                  <p>We Offer Expert Website & App Development Services Tailored to your Business Goals.</p>
-                   <ul>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
-                   
-                  </ul>
+                  <p>We Offer Expert Website & App Development Services Tailored to your 
+Business Goals. </p>
                 </div>
               </div>
               <div
                 className="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 wow fadeInUp"
-                data-wow-delay="600ms" 
+                data-wow-delay="600ms"
               >
                 <div className="single-feature-item h-100">
                   <div className="icon">
@@ -171,17 +162,10 @@ const page = () => {
                   </div>
                   <h4>
                     <Link href="services-details">
-                     Graphic Design & Brand Development
+                      Graphic Design & Brand Development
                     </Link>
                   </h4>
                   <p>We offer Brand Design & Strategy to Help Startups or Growing Brands Shape a Strong Identity</p>
-                    <ul>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
-                   
-                  </ul>
                 </div>
               </div>
               <div
@@ -196,21 +180,15 @@ const page = () => {
                     <Link href="services-details">Smart Automation Solutions</Link>
                   </h4>
                   <p>We offer Industrial, Hospital & Educational Institutions Automation for smarter, Efficient Operations.</p>
-                   <ul>
-                    <li>
-                      <i className="fas fa-check-circle" />
-                      Career progression
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <section className="position-relative" style={{ top: "20px" }}>
-            <OurClients />
+          <OurClients />
         </section>
-         
+
         {/* About Section Start */}
         <section className="about-wrapper about-1 section-padding">
           <div className="container">
@@ -245,12 +223,12 @@ const page = () => {
                     </div>
                     <h2 className="split-text right">
                       Enthusiastically Recommended By <br />  Leaders in All Fields
-                       
+
                     </h2>
                   </div>
                   <p>
-                  Having worked with the best in class brands, we create fast-growth, high visibility 
-                  initiatives in this competitive digital world. 
+                    Having worked with the best in class brands, we create fast-growth, high visibility
+                    initiatives in this competitive digital world.
                   </p>
                   <ul>
                     <li>
@@ -284,7 +262,7 @@ const page = () => {
             </div>
           </div>
         </section>
-  
+
         {/* Service Section Start */}
         <section className="service-wrapper service-1 section-bg section-padding">
           <div className="shapes">
@@ -620,10 +598,10 @@ const page = () => {
             </div>
           </div>
         </section>
-        
+
         {/* Our Clients Section Start */}
         {/* <OurClients /> */}
-        
+
         {/* Brand Section Start */}
         {/* <section className="brand-wrapper brand-1 section-bg section-padding">
           <div className="container">
@@ -665,7 +643,7 @@ const page = () => {
             <img className="shape-2" src="assets/img/shape/shape-14.png" alt />
           </div>
           <div className="container ">
-            
+
             <div className="testimonial-inner overflow-hidden">
               <Testimonial />
             </div>

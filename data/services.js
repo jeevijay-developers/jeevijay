@@ -3,64 +3,53 @@ const services = [
     id: 1,
     title: "Web Development",
     description:
-      "Get a website that’s fast, beautiful, and works perfectly on any device—built just for your business.",
+      "Get a website that’s fast, beautiful, and works perfectly on any device—built just for your business.if you want a true one of a kind, fast and beautiful website – designed for function and built to last, it’s time to turn here",
     link: "services-details/web-development",
     icons: "flaticon-web-development",
   },
   {
     id: 2,
-    title: "App Development",
+    title: "Mobile App Development",
     description:
-      "We create mobile apps that are easy to use and help you connect with your customers, wherever they are.",
+      "Native & Cross-Platform Mobile Apps to give seamless UX and a feature-rich backend that keeps your users glued to the app.",
     link: "services-details/app-development",
     icons: "bi bi-phone",
   },
   {
     id: 3,
-    title: "Industrial Automation Solutions",
+    title: "ERP Software Solutions",
     description:
-      "Empower your business with reliable Industrial Automation Solutions that optimize workflows and drive consistent performance.",
+      " With customized ERP solutions running your business will be more organized, you’ll better manage your data, and you’ll increase productivity.",
     link: "services-details/industrial-automation-solutions",
     icons: "bi bi-database-fill-gear",
   },
   {
     id: 4,
-    title: "Hospital Automation",
+    title: "Digital Marketing",
     description:
-      "Streamlined hospital solutions enabling real-time communication, precise monitoring, and efficient paperless operations.",
-    link: "services-details/hospital-automation",
-    icons: "bi bi-hospital",
+      " We don’t just advertise — Yes, we sell more. We offer marketing services such as:",
+      subpoints: {
+        "SEO": "Reach the top results of the search engine and attract natural visitors.",
+        "PPC Campaigns": "Perform low-cost, high converting Google and Meta ads.",
+        "Lead Generation": "Start getting actual buying customers that turn into real leads. We’re a data-driven, ROI-focused digital marketing team and it shows.",
+      },
+    link: "services-details/digital-marketing",
+    icons: "bi bi-megaphone",
   },
   {
     id: 5,
-    title: "Educational Institution Automation",
-    description: "Educational Institution Automation Technology That Transforms the Learning Ecosystem",
+    title: "Solutions for Educational Institution",
+    description: "From intelligent classrooms to student CRMs and learning platforms we are transforming the infrastructure of Educational institutes for improved learning.",
     link: "services-details/educational-institution-automation",
     icons: "flaticon-management",
   },
   {
     id: 6,
-    title: "Digital marketing",
+    title: "Hospital Automation Systems",
     description:
-      "Reach more people and boost your brand with smart SEO and social media strategies that work.",
-    link: "services-details/digital-marketing",
+      "Simplify hospital management with solutions for patient data, billing, appointment systems, and diagnostics—all in one integrated system.",
+    link: "services-details/hospital-automation",
     icons: "flaticon-engineering",
-  },
-  {
-    id: 7,
-    title: "Graphic and Brand Development",
-    description:
-      "Stand out with a memorable logo and visuals that truly reflect your brand’s personality.",
-    link: "services-details/graphic-and-brand-development",
-    icons: "flaticon-maintenance",
-  },
-  {
-    id: 8,
-    title: "IT Consultancy",
-    description:
-      "Get honest, expert advice to solve your tech challenges and plan for the future with confidence.",
-    link: "services-details/it-consultant",
-    icons: "flaticon-connection",
   },
 ];
 
